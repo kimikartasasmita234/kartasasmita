@@ -1,0 +1,1825 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Kolaborasi_IX-3_18</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<style>
+    #SDGs {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        padding: 20px;
+    }
+
+    #SDGs #description {
+        padding: 20px;
+        text-align: center;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    #SDGs .goals-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    #SDGs .goal-card {
+        padding: 15px;
+        background-color: #2c7be5;
+        color: #fff;
+        text-align: center;
+        font-size: 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #SDGs .goal-card:hover {
+        background-color: #1a5db8;
+        transform: scale(1.05);
+    }
+
+    #SDGs .goal-display {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #SDGs .goal-display img {
+        max-width: 300px;
+        border-radius: 10px;
+        display: none;
+    }
+
+    #SDGs #goal-title {
+        margin-bottom: 20px;
+    }
+</style>
+
+
+<body>
+
+    <div class="Header">
+        <img src="header-web.png" alt="Header Image" class="header-image">
+    </div>
+    <ul class="navbar">
+        <li><a href="#Beranda"><img src="beranda.png" alt="Beranda"></a></li>
+        <li class="dropdown">
+            <a href="#SDGs"><img src="sdgs.png" alt="SDGs"></a>
+            <ul class="Dropdown">
+                <li><a href="#Tujuan"><img src="tujuan.png" alt="Tujuan"></a></li>
+                <li><a href="#Alasan"><img src="alasan.png" alt="Alasan"></a></li>
+            </ul>
+        </li>
+
+        <li class="dropdown">
+            <a href="#Kerjasama"><img src="kerjasama.png" alt="Kerjasama"></a>
+            <ul class="Dropdown">
+                <li><a href="#Bilateral"><img src="bilateral.png" alt="Bilateral"></a></li>
+                <li><a href="#Regional"><img src="regional.png" alt="Regional"></a></li>
+                <li><a href="#Multilateral"><img src="multilateral.png" alt="Multilateral"></a></li>
+            </ul>
+        </li>
+
+
+        <li><a href="#Dampak"><img src="dampak.png" alt="Dampak"></a></li>
+        <li><a href="#nilaipancasila"><img src="pancasila.png" alt="nilaipancasila"></a></li>
+
+        <li class="dropdown">
+            <a href="#Refleksi"><img src="refleksi.png" alt="Refleksi"></a>
+            <ul class="Dropdown">
+                <li><a href="#Kesimpulan"><img src="kesimpulan.png" alt="Kesimpulan"></a></li>
+                <li><a href="#Saran"><img src="saran.png" alt="Saran"></a></li>
+            </ul>
+        </li>
+
+        <li><a href="#Daftar Pustaka"><img src="dafpus.png" alt="Daftar Pustaka"></a></li>
+    </ul>
+
+    <div class="content-container">
+        <!-- Isi Konten Sidebar (Galeri) -->
+        <div class="column side">
+            <h2 align="center">Galeri</h2>
+            <h3 align="center">Mendukung SDGs dengan Kerja Sama Internasional</h3>
+            <p align="center">
+                <img src="prabowoxijinping.png" height="300" width="300" alt="Gallery Image 1">
+                <img src="asean.jpg" height="300" width="300" alt="Gallery Image 2">
+                <img src="indowithun.jpg" height="300" width="300" alt="Gallery Image 3">
+            </p>
+        </div>
+
+        <!-- Isi Konten Middlebar -->
+        <div class="column middle">
+            <div style="text-align: justify;">
+                <h1 align="center">Salam Redaksi</h1>
+                <section id="Beranda">
+                    <h2><strong>Halo, Global Citizens! 👋✨</strong></h2>
+                    <p>Selamat datang di website saya, di mana saya akan mengupas tuntas mengenai Peran Indonesia
+                        dalam Kerja Sama
+                        Internasional terkait SDGs! Di tengah derasnya arus globalisasi, Indonesia terus menunjukkan
+                        komitmennya
+                        dalam mendukung 🎯 Sustainable Development Goals (SDGs) atau 🎋 Tujuan Pembangunan
+                        Berkelanjutan.
+                    </p>
+                    <p>Melalui kerja sama bilateral, regional, hingga multilateral, Indonesia aktif
+                        berkontribusi
+                        untuk menciptakan dunia yang lebih baik —baik dalam aspek sosial, ekonomi, maupun
+                        lingkungan. Mulai dari memperkuat kemitraan dengan negara sahabat, menggencarkan sinergi di
+                        kawasan
+                        ASEAN, hingga berbicara lantang di panggung dunia seperti PBB dan WHO, peran strategis Indonesia
+                        begitu
+                        nyata dalam mewujudkan agenda SDGs.
+                    </p>
+                    <p>Melalui website ini, saya hadir untuk menyajikan informasi, analisis, dan inspirasi
+                        seputar langkah-langkah nyata Indonesia di kancah internasional dalam rangka mewujudkan serta
+                        mencapai Tujuan Pembangunan Berkelanjutan. Mari bersama memahami bagaimana
+                        Indonesia ikut menciptakan solusi global demi masa depan yang berkelanjutan.
+                    </p>
+                    <p>Selamat membaca dan semoga bermanfaat! 🎉📚
+                        <br>
+                        Salam hangat,
+                        <br>
+                        🌍✨ Kimi Kartasasmita IX-3/18✨🌍
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <section id="SDGs">
+            <h1 align="center">Yuk, Kenali SDGs! 🌏✨</h1>
+            <div id="description">
+                <p>
+                    Sustainable Development Goals (SDGs), atau Tujuan Pembangunan Berkelanjutan, adalah serangkaian
+                    tujuan global
+                    yang dicanangkan oleh Perserikatan Bangsa-Bangsa (PBB) pada tahun 2015 untuk mengakhiri kemiskinan,
+                    melindungi lingkungan,
+                    dan memastikan kemakmuran bagi semua orang. SDGs terdiri dari 17 tujuan utama dan 169 target
+                    spesifik, yang dirancang sebagai
+                    peta jalan untuk mencapai dunia yang lebih baik dan berkelanjutan pada tahun 2030.
+                </p>
+                <div align="center">
+                    <img src="sac-2022-image.jpg" alt="SDGs">
+                </div>
+                <p><strong>
+                        Berikut ini merupakan tujuan-tujuan SDGs:</strong>
+                </p>
+            </div>
+            <div class="goals-container">
+
+                <script>
+                    const goals = [
+                        "Tanpa Kemiskinan", "Tanpa Kelaparan", "Kehidupan Sehat dan Sejahtera",
+                        "Pendidikan Berkualitas", "Kesetaraan Gender", "Air Bersih dan Sanitasi Layak",
+                        "Energi Bersih dan Terjangkau", "Pekerjaan Layak dan Pertumbuhan Ekonomi",
+                        "Industri, Inovasi, dan Infrastruktur", "Berkurangnya Kesenjangan",
+                        "Kota dan Permukiman yang Berkelanjutan", "Konsumsi dan Produksi yang Bertanggung Jawab",
+                        "Penanganan Perubahan Iklim", "Ekosistem Lautan", "Ekosistem Daratan",
+                        "Perdamaian, Keadilan, dan Kelembagaan yang Tangguh", "Kemitraan untuk Mencapai Tujuan"
+                    ];
+
+                    goals.forEach((goal, index) => {
+                        document.write(`
+                            <div class="goal-card" onclick="showGoal(${index + 1})">
+                                <h3>${goal}</h3>
+                            </div>
+                        `);
+                    });
+                </script>
+            </div>
+
+            <div class="goal-display">
+
+                <img id="goal-image" src="" alt="Gambar Tujuan SDGs">
+            </div>
+        </section>
+
+        <script>
+            const goalData = {
+                1: { title: "Tanpa Kemiskinan", image: "images/goal1.png" },
+                2: { title: "Tanpa Kelaparan", image: "images/goal2.png" },
+                3: { title: "Kehidupan Sehat dan Sejahtera", image: "images/goal3.png" },
+                4: { title: "Pendidikan Berkualitas", image: "images/goal4.png" },
+                5: { title: "Kesetaraan Gender", image: "images/goal5.png" },
+                6: { title: "Air Bersih dan Sanitasi Layak", image: "images/goal6.png" },
+                7: { title: "Energi Bersih dan Terjangkau", image: "images/goal7.png" },
+                8: { title: "Pekerjaan Layak dan Pertumbuhan Ekonomi", image: "images/goal8.png" },
+                9: { title: "Industri, Inovasi, dan Infrastruktur", image: "images/goal9.png" },
+                10: { title: "Berkurangnya Kesenjangan", image: "images/goal10.png" },
+                11: { title: "Kota dan Permukiman yang Berkelanjutan", image: "images/goal11.png" },
+                12: { title: "Konsumsi dan Produksi yang Bertanggung Jawab", image: "images/goal12.png" },
+                13: { title: "Penanganan Perubahan Iklim", image: "images/goal13.png" },
+                14: { title: "Ekosistem Lautan", image: "images/goal14.png" },
+                15: { title: "Ekosistem Daratan", image: "images/goal15.png" },
+                16: { title: "Perdamaian, Keadilan, dan Kelembagaan yang Tangguh", image: "images/goal16.png" },
+                17: { title: "Kemitraan untuk Mencapai Tujuan", image: "images/goal17.png" }
+            };
+
+            function showGoal(goalId) {
+                const goal = goalData[goalId];
+                const title = document.getElementById("goal-title");
+                const image = document.getElementById("goal-image");
+
+                title.textContent = goal.title;
+                image.src = goal.image;
+                image.style.display = "block";
+            }
+        </script>
+
+        <section id="Tujuan">
+            <h1 align="center">Tujuan SDGs ke-3: Kehidupan Sehat dan Sejahtera <i>(Good Health and Well-Being)</i> 🌿💙
+            </h1>
+            <blockquote
+                style="font-size: 1.5em; font-style: italic; text-align: center; color: #2c7be5; margin: 20px auto; padding: 20px; border-left: 5px solid #2c7be5; background: #9cfdff; border-radius: 10px; max-width: 800px; transition: transform 0.3s, border-color 0.3s;">
+                “Menjamin kehidupan yang sehat dan meningkatkan kesejahteraan untuk seluruh penduduk semua usia.”
+            </blockquote>
+
+            <style>
+                blockquote:hover {
+                    transform: scale(1.05);
+                    border-color: #1d6fa5;
+                }
+            </style>
+
+            <div class="grid-container-1">
+                <!-- Target 1 -->
+                <div class="card">
+                    <h3 style="color: #2c7be5;">🤰❤️ Mengurangi Angka Kematian Ibu</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong>
+                            <br>
+                            Pada tahun 2030, rasio Angka
+                            Kematian Ibu (AKI) harus dikurangi hingga kurang dari 70 per 100.000 kelahiran hidup.
+                        </li>
+                        <li style="margin-bottom: 10px;">📊 <strong>Konteks:</strong> Saat ini, AKI di Indonesia
+                            mencapai 305 per 100.000 kelahiran hidup, menunjukkan kebutuhan mendesak akan layanan
+                            kesehatan ibu yang lebih baik.
+                        </li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="melahirkan.jpeg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 2 -->
+                <div class="card">
+                    <h3 style="color: #28a745;">👶💔 Mengakhiri Kematian Bayi dan Balita</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong>
+                        <li style="margin-bottom: 10px;"><strong>Menurunkan:</strong>
+                            <ul style="list-style-type: square; margin-left: 20px;">
+                                <li>Angka Kematian Neonatal (bayi baru lahir) menjadi maksimal 12 per 1.000 kelahiran
+                                    hidup.</li>
+                                <li>Angka Kematian Balita menjadi maksimal 25 per 1.000 kelahiran hidup.</li>
+                            </ul>
+                        </li>
+                        <li style="margin-bottom: 10px;">📊 <strong>Konteks:</strong> Langkah ini membutuhkan akses yang
+                            lebih luas terhadap perawatan bayi dan gizi yang memadai.</li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="bayimeninggal.jpg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 3 -->
+                <div class="card">
+                    <h3 style="color: #ffc107;">🦠🌍 Mengakhiri Epidemi Penyakit Menular</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong>
+                            <br> <strong>Pada tahun 2030, mengakhiri epidemi:</strong>
+                        </li>
+                        <ul style="list-style-type: square; margin-left: 20px;">
+                            <li>AIDS, tuberkulosis, malaria, dan penyakit tropis terabaikan lainnya.</li>
+                            <li>Mengurangi dampak penyakit yang bersumber dari air dan penyakit menular lainnya.</li>
+                        </ul>
+                        <li style="margin-bottom: 10px;">📊 <strong>Konteks:</strong> Penyakit menular masih menjadi
+                            ancaman di banyak negara berkembang, termasuk Indonesia.</li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="penyakitmenular.jpg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 4 -->
+                <div class="card">
+                    <h3 style="color: #dc3545;">❤️🏃 Mengurangi Angka Kematian akibat PTM</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong> Mengurangi hingga sepertiga
+                            kematian dini akibat PTM, seperti penyakit jantung, diabetes, dan kanker, serta juga,
+                            meningkatkan kesehatan mental dan kesejahteraan.</li>
+                        <li style="margin-bottom: 10px;">📊 <strong>Konteks:</strong> Penyakit tidak menular (PTM)
+                            seperti jantung, diabetes, dan kanker menyumbang 71% kematian di Indonesia, dengan gaya
+                            hidup tidak sehat, seperti merokok dan kurang olahraga, sebagai faktor utama.</li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="diabetes.jpg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 5 -->
+                <div class="card">
+                    <h3 style="color: #17a2b8;">🚭💊 Mencegah dan Mengobati Penyalahgunaan Zat</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong> Memperkuat upaya pencegahan dan
+                            pengobatan terkait penyalahgunaan narkoba dan alkohol, serta mengurangi dampaknya pada
+                            kesehatan masyarakat.</li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="narkoba.jpg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 6 -->
+                <div class="card">
+                    <h3 style="color: #ffc107;">🚦🚑 Mengurangi Kematian Akibat Kecelakaan Lalu Lintas</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong> Pada tahun 2030, jumlah kematian
+                            dan cedera akibat kecelakaan lalu lintas harus berkurang hingga setengahnya.</li>
+                        <li style="margin-bottom: 10px;">📊 <strong>Konteks:</strong> Indonesia masih memiliki tingkat
+                            kecelakaan lalu lintas yang tinggi, sehingga upaya keselamatan jalan sangat penting.</li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="kecelakaan.jpg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 7 -->
+                <div class="card">
+                    <h3 style="color: #28a745;">🏥👨‍⚕️ Akses Universal terhadap Perawatan Kesehatan Reproduksi</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong> Menjamin layanan kesehatan
+                            reproduksi untuk semua orang, termasuk akses terhadap:
+                            <ul style="list-style-type: square; margin-left: 20px;">
+                                <li>Keluarga berencana.</li>
+                                <li>Informasi dan pendidikan tentang kesehatan seksual.</li>
+                                <li>Strategi kesehatan reproduksi nasional.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="kb.jpg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 8 -->
+                <div class="card">
+                    <h3 style="color: #dc3545;">🌐💉 Mencapai Cakupan Kesehatan Universal (UHC)</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong> Menjamin akses universal terhadap:
+                            <ul style="list-style-type: square; margin-left: 20px;">
+                                <li>Pelayanan kesehatan dasar yang baik.</li>
+                                <li>Obat-obatan dan vaksin yang aman, berkualitas, dan terjangkau.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="uhc.jpeg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 9 -->
+                <div class="card">
+                    <h3 style="color: #6c757d;">🧪⚠️ Mengurangi Penyakit dan Kematian akibat Polusi dan Bahan Kimia
+                        Berbahaya</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong> Secara substansial menurunkan angka
+                            kematian akibat:
+                            <ul style="list-style-type: square; margin-left: 20px;">
+                                <li>Polusi udara, air, dan tanah.</li>
+                                <li>Kontaminasi bahan kimia berbahaya.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="polusi.jpg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 10 -->
+                <div class="card">
+                    <h3 style="color: #17a2b8;">🚭 Mengontrol Tembakau</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong> Memperkuat pelaksanaan Framework
+                            Convention on Tobacco Control WHO untuk mengurangi dampak buruk konsumsi tembakau.</li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="rokok.jpg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Tujuan">
+            <div class="grid-container-2">
+                <!-- Target 11 -->
+                <div class="card">
+                    <h3 style="color: #ffc107;">💊🔬 Mendukung Penelitian dan Pengembangan Vaksin serta Obat-obatan
+                        Terjangkau</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong> Memprioritaskan penelitian yang
+                            relevan bagi negara berkembang, khususnya dalam pengendalian penyakit menular dan tidak
+                            menular.</li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="vaksin.jpeg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 12 -->
+                <div class="card">
+                    <h3 style="color: #28a745;">👩‍⚕️💰 Meningkatkan Pembiayaan dan Tenaga Kesehatan</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong>
+                            <ul style="list-style-type: square; margin-left: 20px;">
+                                <li>Meningkatkan jumlah tenaga kesehatan yang terlatih.</li>
+                                <li>Meningkatkan pembiayaan kesehatan untuk mencapai cakupan kesehatan universal.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="image-container">
+                        <img src="pembiayaannakes.jpg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+
+                <!-- Target 13 -->
+                <div class="card">
+                    <h3 style="color: #dc3545;">🌍💪 Mengatasi Dampak Perubahan Iklim terhadap Kesehatan</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px;">📌 <strong>Target:</strong>
+                            <br> Memperkuat kapasitas negara-negara berkembang untuk:
+                            <ul style="list-style-type: square; margin-left: 20px;">
+                                <li>Peringatan dini.</li>
+                                <li>Pengurangan risiko dan manajemen kesehatan global.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </li>
+                    <div class="image-container">
+                        <img src="penguranganrisk.jpg" alt="Tujuan" class="responsive-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="column">
+            <section id="Alasan">
+                <h1 align="center">Mengapa Tujuan SDGs ke-3 Relevan bagi Indonesia?🌏💉</h1>
+                <p>
+                <h2><strong>1. Tantangan Kesehatan yang Masih Tinggi di Indonesia 🏥</strong></h2>
+                <br>
+                <h3><strong>
+                        <ol class="custom-list">
+                            <li>Angka Kematian Ibu (AKI) dan Bayi yang Tinggi 🤱</li>
+                        </ol>
+                    </strong></h3>
+                <p> Menurut Direktur Gizi dan Kesehatan Ibu dan Anak Kementerian Kesehatan, dr. Lovely Daisy, M. K.
+                    M., pada acara temu media dalam rangka hari prematur sedunia tanggal 15 Desember 2023, angka
+                    kematian
+                    ibu dan bayi merupakan dua indikator yang lazim digunakan untuk menentukan derajat kesehatan di
+                    suatu negara. Di Indonesia dua hal ini menjadi perhatian pemerintah karena angka kematian ibu dan
+                    bayi di Tanah Air masuk peringkat tiga besar di ASEAN.</p>
+                <br>
+                <div class="highlight">
+                    📊Sebagai contoh, angka kematian ibu di Indonesia pada tahun 2020 tercatat sekitar <b>305 per
+                        100.000
+                        kelahiran hidup</b>
+                    (Badan Pusat Statistik, 2020), jauh lebih tinggi dibandingkan dengan negara-negara dengan tingkat
+                    kemajuan ekonomi serupa.</div>
+                <div class="image-container">
+                    <img src="aki.jpg" alt="Alasan" class="responsive-image">
+                </div>
+                <h3><strong>
+                        <ol class="custom-list">b. Penyakit Tidak Menular (PTM) ❤️</ol>
+                    </strong></h3>
+                <div class="highlight">💔 Penyakit tidak menular (PTM), seperti <b>penyakit jantung,
+                        diabetes,
+                        dan kanker</b>,
+                    kini menjadi penyebab utama kematian di Indonesia. Data dari Kementerian Kesehatan menunjukkan bahwa
+                    pada tahun 2018,
+                    PTM menyumbang sekitar <b>71%</b> dari total kematian di Indonesia.</div>
+                <p>Penyakit ini sering kali
+                    terkait dengan pola hidup
+                    yang tidak sehat, seperti kurangnya aktivitas fisik, pola makan yang tidak seimbang, serta
+                    stres
+                    yang berkepanjangan.</p>
+                <div class="image-container">
+                    <img src="Ptmdata.jpg" alt="Alasan" class="responsive-image">
+                </div>
+                <br>
+
+                <h3><strong>
+                        <ol class="custom-list">c. Penyakit Menular dan Polusi Lingkungan 🌫️</ol>
+                    </strong></h3>
+                <p>Indonesia masih menghadapi beban besar dari tuberkulosis (TB) dan penyakit yang terkait dengan
+                    sanitasi buruk, seperti diare. Polusi udara di kota-kota besar, seperti di Jakarta, juga
+                    menjadi faktor penyebab meningkatnya kasus penyakit pernapasan.
+                </p>
+                <br>
+                <div class="highlight">Menurut WHO dan Kemenkes, penyakit menular seperti tuberkulosis (TB) dan diare
+                    masih menjadi beban
+                    kesehatan besar di Indonesia, dengan lebih dari 200.000 kasus TB pada 2021 dan tingginya angka
+                    kematian akibat sanitasi buruk.</div>
+                <p></p>
+                <div class="image-container">
+                    <img src="tbc.jpg" alt="Alasan" class="responsive-image">
+                </div>
+
+                <div class="highlight">Selain itu, polusi udara di Jakarta mencapai tingkat kritis dengan konsentrasi
+                    PM2.5
+                    yang berarti melampaui batas aman karena dapat menyusup jauh dalam area alveoli paru-paru
+                    manusia, di mana 70% polusi ini berasal dari emisi kendaraan
+                    bermotor, yang berdampak serius terhadap kesehatan warga, terutama anak-anak, lansia, dan
+                    mereka yang memiliki gangguan pernapasan.</div>
+
+                <div class="image-container">
+                    <img src="udarajkt.jpeg" alt="Alasan" class="responsive-image">
+                </div>
+                <h2><strong>2. Tantangan Akses dan Kesejahteraan Kesehatan Mental 🧠</strong></h2>
+                <div class="highlight">📈 Survei Kesehatan Mental Nasional (SKHN) pada tahun 2018 melaporkan bahwa
+                    <b>18,3%
+                        penduduk Indonesia</b>
+                    mengalami masalah kesehatan mental.
+                </div>
+                <p>Dengan meningkatnya permasalahan kesehatan mental, yang juga menjadi perhatian dalam SDG ke-3,
+                    Indonesia menghadapi tantangan besar terkait kesehatan jiwa. Oleh karena itu, fokus pada akses
+                    layanan kesehatan mental
+                    yang lebih baik menjadi hal
+                    yang sangat penting dalam pencapaian tujuan ini.</p>
+                <div class="image-container">
+                    <img src="masalahmental.jpg" alt="Alasan" class="responsive-image">
+                </div>
+                <h2><strong>3. Bonus Demografi Indonesia 👨‍👩‍👧‍👦</strong></h2>
+                <p>Indonesia sedang berada dalam era bonus demografi, di mana mayoritas penduduknya adalah usia
+                    produktif. Dengan kondisi kesehatan yang baik, generasi ini dapat menjadi motor penggerak
+                    pembangunan ekonomi. Namun, tanpa kesehatan yang optimal, bonus demografi ini justru dapat
+                    berubah menjadi beban sosial akibat rendahnya produktivitas.
+                <div class="highlight">Berdasarkan data dari World Bank dan Bank Indonesia, Indonesia tengah mengalami
+                    bonus demografi, dengan lebih dari 50% penduduk berusia produktif. Namun, kualitas sumber daya
+                    manusia yang tercermin dari Human Capital Index (HCI) Indonesia pada tahun 2020 yang hanya mencapai
+                    0,54 menunjukkan bahwa jika tidak ditangani dengan serius, potensi tersebut dapat menjadi beban
+                    sosial, bukan pendorong pembangunan ekonomi.</div>
+                </p>
+                <div class="image-container">
+                    <img src="sdmrendah.jpg" alt="Alasan" class="responsive-image">
+                </div>
+
+                <h2><strong>4. Ketimpangan Akses Layanan Kesehatan ⚖️</strong></h2>
+                <p>Perbedaan wilayah mengakibatkan penduduk di perkotaan memiliki akses lebih baik ke fasilitas
+                    kesehatan dibandingkan di daerah terpencil. Selain itu, kesenjangan sosial dan ekonomi juga
+                    membuat masyarakat miskin sering kali tidak mampu membayar layanan kesehatan atau membeli
+                    obat-obatan, berbeda dengan orang yang berkecukupan, yang dapat dengan mudah mengakses layanan
+                    kesehatan.</p>
+                <div class="highlight">Di Indonesia, akses layanan kesehatan masih terkendala oleh kesenjangan wilayah
+                    dan ekonomi. Di wilayah 3T (Tertinggal, Terdepan, Terluar), banyak masyarakat kesulitan memperoleh
+                    layanan medis yang memadai. Data menunjukkan bahwa meskipun ada kemajuan, cakupan layanan kesehatan
+                    Indonesia stagnan, dengan indeks layanan turun dari 56 pada 2019 menjadi 55 pada 2021.​</div>
+                <p>Sehingga, tujuan SDGs yang ke-3 ini sangat relevan untuk menjamin akses universal
+                    terhadap layanan kesehatan, terutama di wilayah 3T (Tertinggal, Terdepan, dan Terluar).
+                </p>
+                <div class="image-container">
+                    <img src="3t.jpg" alt="Alasan" class="responsive-image">
+                </div>
+                <h2><strong>5. Pembangunan Berkelanjutan dan Ketahanan terhadap Krisis Kesehatan 🦠</strong></h2>
+                <p>Pandemi COVID-19 menunjukkan pentingnya sistem kesehatan yang kuat, di mana sistem kesehatan yang
+                    lebih tangguh diperlukan untuk menangani wabah dan krisis kesehatan lainnya di masa depan. Maka,
+                    investasi dalam teknologi kesehatan, penelitian, dan pelatihan tenaga medis sangat
+                    diperlukan untuk memperkuat ketahanan.
+                <div class="highlight">Investasi dalam sistem kesehatan terbukti krusial selama pandemi COVID-19.
+                    Contohnya, New Zealand, dengan investasi dalam sistem kesehatan dan pelatihan tenaga medis,
+                    berhasil menanggulangi pandemi dengan baik, menjaga angka kematian rendah dan melindungi masyarakat
+                    dari krisis kesehatan lebih lanjut (New Zealand Ministry of Health, 2020).</div>
+                </p>
+                <div class="image-container">
+                    <img src="nzvscovid.jpg" alt="Alasan" class="responsive-image">
+                </div>
+
+                <h2><strong>6. Dampak terhadap Pembangunan Nasional 🏗️</strong></h2>
+                <p>Kesehatan adalah fondasi utama dalam mendukung pembangunan ekonomi dan sosial di Indonesia. Dengan
+                    memastikan masyarakat tetap sehat, beban biaya kesehatan dapat diminimalkan, baik di tingkat
+                    individu maupun negara. Ketika masyarakat sehat, produktivitas tenaga kerja juga
+                    meningkat, karena tenaga kerja yang sehat lebih mampu bekerja secara efektif dan efisien. Hal ini
+                    berdampak langsung pada pertumbuhan ekonomi, karena tenaga kerja produktif menjadi motor
+                    penggerak sektor-sektor strategis.</p>
+                <div class="highlight">Kesehatan memiliki dampak langsung pada ekonomi Indonesia, karena masalah
+                    kesehatan dapat mengurangi produktivitas dan memperburuk beban ekonomi. Misalnya, Indonesia
+                    kehilangan sekitar 30% PDB tahunan akibat penyakit menular dan tidak menular.</div>
+
+                <p>Selain itu, masyarakat yang sehat juga lebih berpeluang untuk
+                    berinovasi dan berkontribusi pada berbagai bidang, seperti pendidikan, teknologi, dan
+                    kewirausahaan. Semua ini menjadi modal penting bagi Indonesia untuk mencapai tujuan besar,
+                    seperti mewujudkan Indonesia Emas 2045, yaitu visi negara yang sejahtera, maju, dan berdaya saing
+                    di tingkat global. Dengan investasi pada kesehatan, Indonesia dapat memastikan terciptanya sumber
+                    daya manusia yang berkualitas untuk menghadapi tantangan masa depan.</p>
+                <div class="image-container">
+                    <img src="rakyatbahagia.jpg" alt="Alasan" class="responsive-image">
+                </div>
+
+                <p>🔑 Pentingnya SDGs 3 bagi Indonesia tidak hanya pada peningkatan kualitas hidup individu, tetapi
+                    juga daya saing bangsa. Dengan memastikan kehidupan yang sehat dan sejahtera, Indonesia akan
+                    memiliki sumber daya
+                    manusia yang produktif, kreatif, dan mampu berkontribusi dalam pembangunan ekonomi dan sosial
+                    negara. Selain itu, dengan
+                    kesehatan yang lebih baik, Indonesia akan lebih siap menghadapi tantangan global seperti pandemi
+                    dan krisis kesehatan lainnya.
+                </p>
+                <div class="image-container">
+                    <img src="sdmhq.jpeg" alt="Alasan" class="responsive-image">
+                </div>
+                <p>
+                    🌟 Mewujudkan SDGs 3 akan mempercepat Indonesia menuju masa depan yang lebih <b>sejahtera dan
+                        berkelanjutan</b> bagi seluruh rakyatnya!
+        </div>
+
+        <div class="column">
+            <section id="Kerjasama">
+                <h1 align="center">Kerja Sama Internasional 🌏✨</h1>
+                <p>Kerjasama internasional dapat dikategorikan menjadi <strong>bilateral, regional, dan
+                        multilateral</strong>
+                    berdasarkan jumlah negara yang terlibat. Kerjasama bilateral bersifat langsung antara dua negara,
+                    seperti hubungan Indonesia-Jepang dalam perdagangan. Kerjasama regional melibatkan negara-negara
+                    dalam satu kawasan tertentu, contohnya ASEAN, yang berfokus pada integrasi regional Asia Tenggara.
+                    Sedangkan kerjasama multilateral melibatkan lebih banyak negara di bawah naungan organisasi global,
+                    seperti PBB, untuk mengatasi isu internasional seperti perubahan iklim dan perdamaian dunia.</p>
+                <div class="image-container">
+                    <img src="ksinter.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                <h1 align="center">Perbedaan Kerjasama Bilateral, Regional, dan Multilateral</h1>
+
+                <table>
+                    <tr>
+                        <th>Jenis Kerjasama</th>
+                        <th>Deskripsi</th>
+                        <th>Contoh</th>
+                    </tr>
+                    <tr>
+                        <td>Kerjasama Bilateral 🤝🌐</td>
+                        <td>
+                            Kerjasama antara dua negara untuk mencapai tujuan tertentu, biasanya terkait perdagangan,
+                            keamanan, pendidikan, kesehatan atau bidang lain yang disepakati bersama.
+                        </td>
+                        <td>
+                            Indonesia dan China yang bekerja sama memproduksi vaksin COVID-19 melalui
+                            transfer teknologi, memastikan akses yang lebih cepat dan merata untuk masyarakat
+                            dalam mengatasi pandemi global.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align: center;">
+                            <div class="image-container">
+                                <img src="idcn.jpeg" alt="Kerja Sama" class="responsive-image">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kerjasama Regional 🌏✨</td>
+                        <td>
+                            Kerjasama di antara negara-negara dalam wilayah tertentu untuk mencapai kepentingan bersama,
+                            biasanya terkait stabilitas politik, ekonomi, dan keamanan di kawasan.
+                        </td>
+                        <td>
+                            ASEAN (<i>Association of Southeast Asian Nations</i>), di mana Indonesia bersama
+                            negara-negara
+                            Asia Tenggara lainnya berkolaborasi dalam ekonomi, pendidikan, dan keamanan
+                            regional.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align: center;">
+                            <div class="image-container">
+                                <img src="exasean.jpg" alt="Kerja Sama" class="responsive-image">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kerjasama Multilateral 🌍🤝🌟</td>
+                        <td>
+                            Kerjasama di antara banyak negara, biasanya dalam lingkup organisasi internasional
+                            atau forum global, untuk mengatasi isu yang bersifat global seperti perubahan iklim,
+                            perdagangan dunia, atau perdamaian internasional.
+                        </td>
+                        <td>
+                            Indonesia sebagai anggota PBB berpartisipasi dalam program Sustainable Development Goals
+                            (SDGs) untuk pembangunan berkelanjutan global.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align: center;">
+                            <div class="image-container">
+                                <img src="pbbwindo.jpg" alt="Kerja Sama" class="responsive-image">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <h1 align="center">Hubungan antara SDGs dan Kerjasama Internasional 🌍🤝</h1>
+                <p>
+                <h2><strong><i>Sustainable Development Goals</i> (SDGs) dan Kerjasama Internasional 🌍🤝</strong></h2>
+                SDGs adalah agenda global yang bertujuan untuk mengatasi tantangan besar seperti kemiskinan,
+                kesenjangan, perubahan iklim, dan degradasi lingkungan. Kerjasama internasional sangat
+                penting untuk mencapai SDGs karena masalah ini sering melampaui batas negara, membutuhkan solusi
+                kolektif, dan memerlukan sinergi antara berbagai pihak. Bagaimana hubungan antara SDGs dan
+                kerjasama internasional? Mari kita lihat lebih dekat!</p>
+                <p>
+                <h2><strong>SDGs sebagai Tujuan Bersama 🌍</strong></h2>
+                SDGs memberikan kerangka kerja global yang digunakan negara-negara untuk menyelaraskan kebijakan
+                domestik dan internasional mereka. Misalnya, tujuan terkait aksi iklim (SDG 13) mengarah pada
+                kolaborasi global melalui Perjanjian Paris, di mana negara-negara bekerja bersama untuk
+                mengurangi emisi karbon.
+                <div class="image-container">
+                    <img src="parisjokowi.png" alt="Kerja Sama" class="responsive-image">
+                </div>
+                </p>
+                <p>
+                <h2><strong>Kerjasama Internasional sebagai Pendukung SDGs 🤝</strong></h2>
+                Kerjasama internasional adalah fondasi untuk mendukung implementasi SDGs. Melalui pembiayaan,
+                teknologi, dan keahlian, negara-negara bekerja sama untuk mencapai tujuan pembangunan
+                berkelanjutan. Contohnya adalah Bantuan Pembangunan Resmi (<i><strong>O</strong>fficial
+                    <strong>D</strong>evelopment <strong>A</strong>ssistance</i>) yang didanai oleh Kementerian Kelautan
+                dan Perikanan Republik Korea dan diprakarsai oleh Kementerian Kemaritiman dan Investasi Republik
+                Indonesia (Kemenkomarves).
+                <div class="image-container">
+                    <img src="oda.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                </p>
+                <p>
+                <h2><strong>SDGs Memotivasi Kolaborasi Baru 💡</strong></h2>
+                Adopsi SDGs telah memperkuat kemitraan internasional. Negara-negara mulai menjalin kolaborasi
+                baik secara bilateral, regional, maupun multilateral untuk mendukung pencapaian tujuan bersama.
+                Kemitraan untuk SDG 17 (Kemitraan untuk Pembangunan Berkelanjutan) bertujuan untuk memperkuat
+                hubungan ini dan mendorong kerjasama di seluruh dunia.</p>
+                <div class="call-to-action">
+                    <p>Bagaimana Indonesia dapat berkontribusi dalam mendukung tujuan SDGs ini? 🤔💬</p>
+                </div>
+                <section class="content">
+                    <h1>Mekanisme yang Menghubungkan SDGs dan Kerjasama Internasional 🌍🤝</h1>
+                    <div class="card">
+                        <h2>Pendanaan Global 💰</h2>
+                        <p>Organisasi internasional seperti Bank Dunia, IMF, dan UNDP menyediakan dana untuk negara
+                            berkembang guna mendukung proyek-proyek SDGs, seperti infrastruktur energi terbarukan
+                            (SDG 7).</p>
+                        <div class="image-container">
+                            <img src="ps.jpg" alt="Kerja Sama" class="responsive-image">
+                        </div>
+                    </div>
+
+                    <!-- Transfer Teknologi -->
+                    <div class="card">
+                        <h2>Transfer Teknologi dan Pengetahuan 💻📚</h2>
+                        <p>Negara-negara maju sering berbagi teknologi ramah lingkungan atau sistem manajemen
+                            modern melalui kerjasama multilateral, regional, atau bilateral untuk mendukung SDGs,
+                            terutama di
+                            bidang energi, kesehatan, dan pertanian.</p>
+                        <div class="image-container">
+                            <img src="wuling.jpeg" alt="Kerja Sama" class="responsive-image">
+                        </div>
+                    </div>
+
+                    <!-- Peningkatan Kapasitas -->
+                    <div class="card">
+                        <h2>Peningkatan Kapasitas 🏫</h2>
+                        <p>Melalui kerjasama internasional, negara-negara berkembang menerima pelatihan dan
+                            pendidikan yang relevan untuk memperkuat kemampuan institusional mereka dalam mencapai
+                            SDGs.</p>
+                        <div class="image-container">
+                            <img src="pk.jpeg" alt="Kerja Sama" class="responsive-image">
+                        </div>
+                    </div>
+
+                    <!-- Aksi Kolektif -->
+                    <div class="card">
+                        <h2>Aksi Kolektif 🌏🤝</h2>
+                        <p>SDGs memerlukan aksi kolektif dalam menangani isu-isu global seperti perubahan iklim (SDG
+                            13), yang diupayakan melalui perjanjian internasional seperti Perjanjian Paris.</p>
+                        <div class="image-container">
+                            <img src="aksdgs.jpg" alt="Kerja Sama" class="responsive-image">
+                        </div>
+                    </div>
+
+                    <!-- Contoh Kerjasama -->
+                    <div class="example">
+                        <h3>Contoh Kerjasama:</h3>
+                        <ul>
+                            <li>Kerjasama Bilateral🤝🌏
+                                Indonesia-Norwegia dalam program REDD+ (<i>Reducing Emissions from Deforestation and
+                                    Forest
+                                    Degradation</i>) untuk mengurangi emisi karbon, mendukung SDG 15.</li>
+
+                            <li> Kerjasama Regional 🌏
+                                ASEAN Disaster Management Agreement yang mendukung SDG 11 tentang kota dan komunitas
+                                berkelanjutan.</li>
+                            <li>Kerjasama Multilateral 🌍
+                                Perjanjian Paris mengkoordinasikan aksi global terhadap perubahan iklim, mendukung
+                                SDG 13.</li>
+                        </ul>
+                </section>
+        </div>
+        </section>
+
+        <div class="column">
+            <section id="Bilateral">
+                <h1 align="center">Kerja Sama Bilateral Indonesia dan China untuk Mendukung SDG 3 (Kesehatan yang Baik
+                    dan Kesejahteraan) 🌏🤝
+                </h1>
+                <h2>Komitmen Bersama untuk Kesehatan Global 💪🌍</h2>
+                <p>Kerja sama antara Indonesia dan China terus diperkuat dalam mendukung pencapaian <i>Sustainable
+                        Development Goals</i> (SDGs), khususnya SDG 3 yang bertujuan untuk memastikan kehidupan yang
+                    sehat dan
+                    meningkatkan kesejahteraan bagi semua usia. Melalui berbagai inisiatif strategis, kedua negara
+                    berkomitmen untuk meningkatkan akses, kualitas, dan ketahanan sistem kesehatan di masing-masing
+                    negara, serta berkontribusi terhadap kesehatan global.</p>
+                <div class="image-container">
+                    <img src="icrsi.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                <h2>Kerja Sama di Bidang Pelatihan Dokter Kardiovaskular ❤️‍🩹</h2>
+                <p>Pada kunjungan kerja Direktur Jenderal Tenaga Kesehatan Kemenkes RI ke China, telah ditandatangani
+                    <i>Letter of Intent</i> (LoI) dengan Rumah Sakit Rizhao Xinyi. Kerja sama ini mencakup pelatihan
+                    dokter, perawat, dan teknisi kardiovaskular Indonesia di fasilitas medis terkemuka di China selama
+                    lima tahun ke depan.
+                </p>
+                <div class="image-container">
+                    <img src="rzhospital.jpeg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                <p>Tujuan dari program ini adalah:
+                <ul>
+                    <li>Meningkatkan kapasitas tenaga kesehatan dalam penanganan penyakit jantung</li>
+                    <li> Mengurangi angka kematian akibat penyakit kardiovaskular</li>
+                    <li>Mengadopsi teknologi medis terkini melalui transfer pengetahuan dan teknologi</li>
+                </ul>
+                </p>
+                <h2>Dukungan Transformasi Kesehatan Indonesia 💉</h2>
+                <p>Kerja sama Indonesia-China tidak terbatas pada pelatihan tenaga medis. Dalam pertemuan bilateral
+                    antara Wakil Menteri Kesehatan Indonesia dan China, berbagai inisiatif telah disepakati, termasuk:
+                <ul>
+                    <li>Pengembangan vaksin pneumonia (<b>P</b>neumococcal <b>C</b>onjugate <b>V</b>accine ) untuk
+                        mencegah salah satu penyebab kematian bayi tertinggi
+                        di Indonesia
+                    </li>
+                    <li>Kerja sama farmasi dan bioteknologi
+                    </li>
+                    <li>Transfer teknologi untuk memperkuat ketahanan industri kesehatan di Indonesia</li>
+                </ul>
+                </p>
+
+                <h2>Pandemi COVID-19 Fondasi Kolaborasi yang Kuat 🦠🤝</h2>
+                <p>Selama pandemi COVID-19, kerja sama bilateral Indonesia-China memainkan peran penting dalam
+                    memastikan
+                    ketersediaan alat kesehatan, vaksin, dan dukungan medis lainnya.
+                    <br>
+                    Kontribusi ini meliputi:
+                <ul>
+                    <li>Donasi alat kesehatan seperti ventilator, masker, dan peralatan medis lainnya</li>
+                    <li>Pasokan vaksin COVID-19 yang membantu mempercepat program vaksinasi nasional di Indonesia
+                    </li>
+                </ul>
+                Kolaborasi ini tidak hanya membantu Indonesia dalam memerangi pandemi, tetapi juga memperkuat hubungan
+                diplomatik kedua negara.
+                <div class="image-container">
+                    <img src="indochina.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                </p>
+
+                <h2>Mendukung Pilar SDG 3: Kesehatan yang Inklusif dan Berkelanjutan 🌱</h2>
+                <p>Kerja sama ini mendukung berbagai target SDG 3, antara lain:
+                    <ul class="custom-list">
+                    <li>3.3: Mengakhiri epidemi penyakit menular</li>
+                    <li>3.8: Mencapai cakupan kesehatan universal (<i>Universal Health Coverage</i>)</li>
+                    <li>3.c: Meningkatkan jumlah tenaga kesehatan di negara berkembang melalui pelatihan dan
+                        pengembangan
+                        profesional</li>
+                </ul>
+                <div class="image-container">
+                    <img src="uhcsyarat.png" alt="Kerja Sama" class="responsive-image">
+                </div>
+                </p>
+
+                <h2>Harapan untuk Masa Depan 🌟</h2>
+                <p>Kerja sama ini diharapkan:
+                    <ul class="custom-list">
+                    <li>Menghasilkan talenta medis yang unggul dan mampu menghadapi tantangan kesehatan di masa depan
+                    </li>
+                    <li>Meningkatkan hubungan persahabatan antara Indonesia dan China</li>
+                    <li>Mendorong pengembangan kesehatan global, sesuai dengan prinsip <i>One Health Approach</i></li>
+                </ul>
+                <div class="image-container">
+                    <img src="kesehatanberkelanjutan.png" alt="Kerja Sama" class="responsive-image">
+                </div>
+                </p>
+                <p>Kunjungan bilateral ini menjadi langkah strategis dalam memperkuat pilar transformasi kesehatan
+                    Indonesia, baik dari sisi layanan kesehatan, penelitian, maupun teknologi medis. Semangat
+                    kolaborasi
+                    ini akan terus mendukung tujuan SDGs, khususnya SDG 3, untuk menciptakan dunia yang lebih sehat dan
+                    sejahtera.</p>
+
+                <h2>Mari Bersama Dukung SDG 3 🌍🤝</h2>
+                <p>Kolaborasi yang kuat antara Indonesia dan China adalah bukti bahwa kerja sama internasional dapat
+                    menjadi katalisator dalam mewujudkan kesehatan yang inklusif dan berkelanjutan. Bersama, kita
+                    bisa
+                    mencapai tujuan ini!</p>
+            </section>
+        </div>
+
+        <div class="column">
+            <section id="Regional">
+                <h1 align="center">Kerja Sama Regional Indonesia dengan ASEAN untuk Mendukung SDG 3 (Kesehatan yang Baik
+                    dan Kesejahteraan) 🌍💚
+                </h1>
+                <h2>Kolaborasi ASEAN dalam Digitalisasi Kesehatan 💻🏥</h2>
+                <p>ASEAN berkomitmen memperkuat upaya kolektif dalam digitalisasi kesehatan, termasuk melalui platform
+                    Mekanisme Verifikasi Universal ASEAN (<strong>A</strong>SEAN <strong>U</strong>niversal
+                    <strong>V</strong>erification <strong>M</strong>echanism). AUVM berfungsi sebagai alat verifikasi
+                    tanpa
+                    pertukaran data sensitif, yang mencakup sertifikasi digital untuk vaksinasi rutin, influenza, dan
+                    meningitis. Inisiatif ini bertujuan untuk memfasilitasi perjalanan lintas batas yang aman dan
+                    efisien, serta mendukung respons pandemi di masa depan.</p>
+                <div class="image-container">
+                    <img src="auvm.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                <h2>Penguatan Mekanisme Regional:  ASEAN Universal Verification Mechanism (AUVM) 📊💪</h2>
+                <p>ASEAN mengidentifikasi beberapa langkah untuk meningkatkan efektivitas AUVM, seperti:
+                    <ul class="custom-list">
+                    <li>Peningkatan kapasitas negara anggota untuk menyelaraskan standar</li>
+                    <li> Kolaborasi lintas sektor, termasuk telekomunikasi, keamanan siber, dan transportasi</li>
+                    <li>Kerja sama dengan <i>Global Digital Health Certification Network</i> (GDHCN) untuk mengembangkan
+                        jejaring kesehatan global</li>
+                </ul>
+                </p>
+                <div class="image-container">
+                    <img src="gdhcn.png" alt="Kerja Sama" class="responsive-image">
+                </div>
+                <h2>Platform Manajemen Pengetahuan ASEAN 📚💡</h2>
+                <p>ASEAN juga mengembangkan platform manajemen pengetahuan sebagai repositori pusat yang menyimpan data
+                    dan dokumen kesehatan regional. Platform ini akan:
+                    <ul class="custom-list">
+                    <li>Meningkatkan efisiensi berbagi informasi <i>real-time</i></li>
+                    <li>Mendukung pengambilan keputusan berbasis data</li>
+                    <li>Menghindari tumpang tindih mekanisme digital di kawasan</li>
+                </ul>
+                </p>
+                <p>ASEAN berencana untuk:
+                    <ul class="custom-list">
+                    <li>Mengadakan pelatihan dan peningkatan kapasitas pengguna platform</li>
+                    <li>Melibatkan Kelompok Kerja Teknis Kesehatan Digital untuk memaksimalkan potensi platform ini
+                    </li>
+                    <li>Meluncurkan tahapan pengembangan yang mencakup pelatihan, migrasi data, dan pemeliharaan sistem
+                    </li>
+                </ul>
+                </p>
+                <h2>Dana Respons ASEAN untuk Kesehatan 💵🏥</h2>
+                <p>Indonesia sebagai Ketua ASEAN 2023, bersama Thailand, memprakarsai perluasan Dana Respons
+                    COVID-19 ASEAN menjadi dana untuk berbagai keadaan darurat kesehatan. Dana ini akan mendukung:
+                    <ul class="custom-list">
+                    <li>Deteksi dini dan pengendalian penularan penyakit
+                    </li>
+                    <li>Pencegahan pandemi di masa depan
+                    </li>
+                    <li>Penguatan arsitektur kesehatan regional sebagai bentuk kesiapan kawasan
+                    </li>
+                </ul>
+                </p>
+
+                <h2>Kolaborasi Lintas Sektor untuk Masa Depan yang Lebih Sehat 🏛️🔗</h2>
+                <p>ASEAN memprioritaskan kolaborasi lintas sektor untuk memastikan keberhasilan inisiatif ini, dengan
+                    melibatkan:
+                    <ul class="custom-list">
+                    <li>Keamanan siber untuk menjaga privasi data kesehatan</li>
+                    <li>Telekomunikasi dan teknologi informasi dalam mendukung integrasi digital
+                    </li>
+                    <li>Transportasi dan imigrasi untuk memfasilitasi mobilitas lintas batas </li>
+                </ul>
+                ASEAN percaya bahwa upaya ini akan memperkuat ketahanan kawasan, memastikan masyarakat terlindungi, dan
+                mendukung pemulihan ekonomi yang berkelanjutan.
+                <div class="image-container">
+                    <img src="aseann.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                </p>
+            </section>
+        </div>
+
+
+        <div class="column">
+            <section id="Multilateral">
+                <h1 align="center">Kerja Sama Multilateral: WHO dan Kemenkes Indonesia 🌍🤝</h1>
+                <p>Kerja sama multilateral dalam bidang kesehatan melibatkan berbagai pihak yang saling berkolaborasi
+                    untuk mencapai tujuan yang lebih besar, salah satunya adalah Organisasi Kesehatan Dunia (WHO) yang
+                    bekerja sama dengan Kementerian Kesehatan Indonesia (Kemenkes). Beberapa inisiatif penting
+                    dalam kerja sama ini mencakup program hibah dan pengembangan kebijakan untuk menangani tantangan
+                    kesehatan global, seperti perubahan iklim dan eliminasi lemak trans. Berikut adalah
+                    beberapa pencapaian dan kerja sama utama antara WHO dan Kemenkes Indonesia:</p>
+                <div class="image-container">
+                    <img src="whoo.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+
+                <h2>1. Kerja Sama Hibah Bidang Kesehatan (Grant Agreement Biennium 2022-2023) 📜💰
+                </h2>
+                <p>Pada 14 Mei 2022, Sekretaris Jenderal Kemenkes Indonesia, Kunta Wibawa Dasa Nugraha, dan Perwakilan
+                    WHO Indonesia, Dr. N. Paranietharan, menandatangani <i>>Grant Agreement Biennium 2022-2023</i> di
+                    Hotel
+                    Conrad, Bali. Kesepakatan ini dibuat dalam kerangka pertemuan Menteri Kesehatan ASEAN (15th
+                    AHMM). Dokumen kerja sama ini berfungsi sebagai acuan dalam perencanaan anggaran WHO untuk kegiatan
+                    yang akan dilakukan dalam dua tahun ke depan, yakni pada periode 2022-2023. Program ini bertujuan
+                    untuk mendukung implementasi kebijakan-kebijakan Kemenkes Indonesia dalam sektor kesehatan, dengan
+                    fokus pada pencapaian tujuan pembangunan kesehatan yang sesuai dengan Rencana Pembangunan Jangka
+                    Menengah Nasional (RPJMN) 📊serta transformasi kesehatan yang sedang dilakukan di Indonesia.
+                </p>
+                <div class="image-container">
+                    <img src="kemenkeswho.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                <h2>2. Kerja Sama untuk Meningkatkan Ketahanan Kesehatan terhadap Perubahan Iklim 🌍🌡️</h2>
+                <p>Dalam upaya memerangi dampak perubahan iklim terhadap kesehatan, Kemenkes Indonesia bersama
+                    dengan UNDP dan WHO menyepakati kerja sama untuk membangun sistem kesehatan yang lebih tahan
+                    terhadap perubahan iklim. Pendanaan untuk proyek ini bersumber dari <i>Green Climate Fund (GCF)</i>,
+                    yang menjadi bagian dari proyek global yang mencakup 17 negara. Proyek ini bertujuan untuk
+                    mengurangi emisi gas rumah kaca di fasilitas kesehatan dan mengintegrasikan sistem peringatan
+                    dini penyakit terkait iklim. Melalui pendekatan adaptasi dan mitigasi iklim, inisiatif ini
+                    akan memperkuat sistem kesehatan Indonesia dan membantu masyarakat menjadi lebih tangguh terhadap
+                    ancaman perubahan iklim, yang mempengaruhi banyak sektor, termasuk kesehatan.</p>
+                    <div class="image-container">
+                        <img src="gcf.jpg" alt="Kerja Sama" class="responsive-image">
+                    </div>
+                    <h2>3. Eliminasi Lemak Trans di Indonesia 🍟🚫</h2>
+                <p>WHO dan Kemenkes Indonesia juga bekerja sama dalam upaya eliminasi lemak trans, yang dikenal berisiko
+                    tinggi terhadap penyakit jantung koroner. Pada 6 Mei 2022, WHO meluncurkan kajian perintis yang
+                    menguji kandungan lemak trans dalam berbagai jenis makanan yang beredar di Indonesia. Hasil
+                    kajian ini menunjukkan bahwa beberapa produk pangan, seperti biskuit, wafer, margarin, dan makanan
+                    siap saji, mengandung kadar lemak trans yang jauh melebihi rekomendasi WHO, yakni kurang dari 2 gram
+                    per 100 gram total lemak.
+                    <div class="image-container">
+                        <img src="elimlemak.jpeg" alt="Kerja Sama" class="responsive-image">
+                    </div>
+                    <br>
+                    Sebagai respons terhadap masalah ini, Kemenkes dan WHO mendorong pembatasan lemak trans dalam
+                    makanan dengan dua kebijakan utama:
+                    <ul class="custom-list">
+                    <li>Batasan kadar lemak trans tidak lebih dari 2% dari total kandungan lemak dalam makanan.
+                    </li>
+                    <li>Pelarangan penggunaan minyak terhidrogenasi sebagian (<i><strong>P</strong>artially <strong>H</strong>ydrogenated <strong>O</strong>il</i>) dalam produk makanan.
+                    </li>
+                    <li>Meluncurkan tahapan pengembangan yang mencakup pelatihan, migrasi data, dan pemeliharaan sistem
+                    </li>
+                </ul>
+                <div class="image-container">
+                    <img src="pho.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                <br>
+                Kebijakan ini bertujuan untuk menurunkan angka kematian akibat penyakit jantung dan pembuluh darah,
+                serta mengurangi beban biaya kesehatan negara. Denmark, yang menjadi negara pertama yang menerapkan
+                kebijakan ini pada 2003, telah menunjukkan penurunan signifikan dalam kematian akibat penyakit jantung
+                setelah kebijakan tersebut diterapkan.
+                </p>
+                <h2>4. Komitmen Pemerintah Indonesia💪🏛️</h2>
+                <p>Pemerintah Indonesia, melalui Kemenkes, berkomitmen untuk merumuskan regulasi yang melarang
+                    penggunaan lemak trans dalam industri makanan di Indonesia. Hal ini diharapkan dapat mengurangi
+                    angka kematian akibat penyakit jantung dan meningkatkan kesehatan masyarakat secara umum .
+                    Proses penyusunan regulasi ini akan melibatkan banyak sektor terkait, serta edukasi kepada
+                    masyarakat, khususnya pedagang makanan kaki lima, untuk memastikan keberhasilan penerapan kebijakan
+                    ini.
+                </p>
+
+                <h2>5. Peningkatan Kesadaran dan Kolaborasi Global 🌎🤝</h2>
+                <p>Sebagai bagian dari upaya ini, WHO juga menekankan pentingnya kolaborasi antarnegara dan sektor dalam
+                    menghadapi ancaman kesehatan global, termasuk yang disebabkan oleh perubahan iklim dan
+                    konsumsi lemak trans. WHO berharap Indonesia dapat menjadi negara berikutnya yang menerapkan
+                    regulasi untuk eliminasi lemak trans, mengikuti jejak negara-negara lain seperti Denmark, yang telah
+                    berhasil menurunkan angka kematian akibat penyakit jantung.</p>
+                <p>
+                    Kerja sama antara WHO dan Kemenkes Indonesia ini telah mencerminkan upaya negara untuk menghadapi
+                    tantangan kesehatan global melalui kebijakan yang berbasis bukti ilmiah dan berfokus pada
+                    keberlanjutan dan ketahanan sistem kesehatan nasional terhadap berbagai ancaman.
+                <div class="image-container">
+                    <img src="indowho.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                </p>
+            </section>
+        </div>
+
+        <div class="column">
+            <section id="Dampak">
+                <p>Kerja sama internasional yang dilakukan Indonesia, baik secara bilateral, regional, maupun
+                    multilateral, untuk mencapai Tujuan 3 SDGs (Kesehatan yang Baik dan Kesejahteraan untuk Semua),
+                    memberikan dampak yang luas bagi masyarakat Indonesia. Berikut adalah dampak dari kerja sama
+                    tersebut:
+                </p>
+                <h2>1. Dampak dari Kerja Sama Bilateral 🤝🌏
+                </h2>
+                <p>Kerja sama bilateral Indonesia dengan negara-negara lain mencakup berbagai bidang, seperti pertukaran
+                    pengetahuan, pendanaan proyek kesehatan, dan dukungan teknis dalam sistem kesehatan.
+                    Beberapa dampak yang dirasakan oleh masyarakat Indonesia adalah:
+                    <ul class="custom-list">
+                    <li><strong>Akses terhadap teknologi kesehatan yang lebih maju </strong>, seperti vaksinasi dan
+                        perawatan
+                        penyakit tertentu (misalnya kanker dan penyakit menular). China berperan penting
+                        dalam penyediaan vaksin COVID-19 Sinovac yang membantu Indonesia untuk mempercepat vaksinasi
+                        massal. Melalui kerja sama ini, Indonesia memperoleh akses lebih cepat dan terjangkau terhadap
+                        vaksin yang sangat diperlukan untuk mengendalikan pandemi. Selain itu, China juga membantu
+                        Indonesia dalam menyediakan obat-obatan untuk penyakit menular, seperti tuberkulosis dan
+                        malaria, serta teknologi medis yang mendukung pengobatan dan perawatan yang lebih baik. </li>
+                    <li><strong>Bantuan pembangunan infrastruktur kesehatan</strong>, contohnya seperti China yang
+                        mendukung
+                        pembangunan infrastruktur kesehatan di Indonesia, seperti rumah sakit dan fasilitas kesehatan
+                        lainnya. Misalnya, dalam pembangunan rumah sakit rujukan untuk menangani penyakit menular dan
+                        darurat, serta peningkatan fasilitas medis di daerah terpencil. Dengan kerja sama ini,
+                        memungkinkan masyarakat Indonesia, terutama di daerah yang sulit dijangkau, untuk mendapatkan
+                        akses yang lebih baik ke layanan kesehatan. </li>
+                    <li><strong>Pelatihan dan Pertukaran Pengetahuan 💼💡</strong>
+                        <br>Melalui kerja sama ini, Indonesia mendapatkan manfaat
+                        berupa pelatihan tenaga medis dan pertukaran pengetahuan dalam bidang kesehatan.
+                        China menyediakan berbagai pelatihan untuk tenaga medis Indonesia, terutama di bidang
+                        pengendalian penyakit menular dan perawatan kesehatan masyarakat. Hal ini membantu meningkatkan
+                        kapasitas sumber daya manusia di sektor kesehatan Indonesia, yang berimbas langsung pada
+                        peningkatan kualitas layanan kesehatan bagi masyarakat.
+                    </li>
+                </ul>
+                </p>
+                <div class="image-container">
+                    <img src="pembangunan.jpeg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                <p>Dengan berbagai kontribusi ini, kerja sama bilateral Indonesia-China tidak hanya mendukung
+                    pencapaian tujuan SDGs 3, tetapi juga mempercepat perbaikan dalam sistem kesehatan Indonesia,
+                    meningkatkan kualitas hidup, dan memberikan akses yang lebih luas bagi masyarakat terhadap
+                    layanan kesehatan yang lebih baik dan lebih terjangkau.</p>
+                <div class="image-container">
+                    <img src="dokter.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+
+
+                <h2>2. Dampak dari Kerja Sama Regional 🌐🤝</h2>
+                <p>Kerja sama regional, seperti yang dilakukan Indonesia dalam ASEAN atau dengan
+                    negara-negara di Asia Tenggara, memberikan dampak dalam hal penanggulangan masalah kesehatan
+                    lintas negara, standarisasi kebijakan kesehatan, dan peningkatan kapasitas:
+                    <ul class="custom-list">
+                    <li><strong>Peningkatan koordinasi dalam penanganan penyakit menular</strong> seperti COVID-19,
+                        HIV/AIDS, atau
+                        tuberkulosis, di mana negara-negara ASEAN bekerja sama dalam berbagi data, penelitian,
+                        serta sumber daya medis. Hal ini memperkuat sistem kesehatan regional yang memungkinkan
+                        Indonesia
+                        mengakses vaksin dan obat-obatan secara cepat dan lebih murah. </li>
+                    <li><strong>Penguatan sistem kesehatan masyarakat 🏥</strong>
+                        <br>
+                        Kerja sama dengan negara-negara ASEAN memungkinkan
+                        Indonesia berbagi pengalaman dalam penanggulangan bencana, termasuk pengelolaan dampak
+                        kesehatan akibat bencana alam dan perubahan iklim.
+                    </li>
+                </ul>
+                </p>
+                <p>Contoh nyata adalah Program <i>ASEAN Health Ministers’ Meeting (AHMM)</i> yang membantu Indonesia
+                    dalam
+                    meningkatkan pelayanan kesehatan melalui penyusunan kebijakan bersama, seperti kebijakan
+                    penanggulangan penyakit menular yang dapat langsung dirasakan oleh masyarakat.
+                    <div class="image-container">
+                        <img src="ahmm.jpg" alt="Kerja Sama" class="responsive-image">
+                    </div>
+                </p>
+                <h2>3. Dampak dari Kerja Sama Multilateral 🌍🛠️
+                </h2>
+                <p>Kerja sama multilateral, seperti dengan lembaga-lembaga internasional seperti PBB, WHO, Bank
+                    Dunia, <i>GAVI (Global Alliance for Vaccines and Immunization)</i>, serta berbagai organisasi
+                    kesehatan global lainnya, memberi dampak yang lebih besar dan menyeluruh bagi masyarakat
+                    Indonesia. Beberapa dampak penting antara lain:
+                    <ul class="custom-list">
+                    <li><strong>Akses ke pembiayaan global 💰</strong>
+                        <br> Program multilateral sering kali menyediakan pembiayaan untuk proyek kesehatan besar,
+                        seperti pemberantasan penyakit menular (malaria, tuberkulosis, dan HIV/AIDS), yang
+                        memungkinkan Indonesia memperbaiki infrastruktur dan memperluas cakupan pelayanan kesehatan.
+                    </li>
+                    <li><strong>Standarisasi dan peningkatan kualitas kebijakan kesehatan 📝</strong>
+                        <br>
+                        Melalui keterlibatan dalam organisasi internasional, Indonesia dapat mengadopsi best practices
+                        dalam sistem pelayanan kesehatan, serta kebijakan pengendalian penyakit, pengobatan yang lebih
+                        efektif, dan program vaksinasi yang lebih komprehensif.
+                    </li>
+                    <li><strong>Sumber daya manusia yang lebih terampil 🧑‍⚕️👩‍⚕️</strong>
+                        <br>
+                        Dalam kerja sama multilateral, banyak pelatihan, seminar, dan program pertukaran yang dilakukan
+                        untuk meningkatkan kualitas tenaga medis Indonesia. Dampaknya adalah tenaga medis yang lebih
+                        terampil, yang dapat memberikan pelayanan kesehatan yang lebih baik kepada masyarakat.
+                    </li>
+                </ul>
+                </p>
+                <p>Contoh yang signifikan adalah Program COVAX yang diinisiasi oleh WHO, GAVI, dan CEPI yang membantu
+                    Indonesia dalam mendistribusikan vaksin COVID-19 kepada masyarakat. Hal ini merupakan contoh nyata
+                    bagaimana kerja sama multilateral membantu masyarakat Indonesia mendapatkan akses ke vaksin yang
+                    sangat dibutuhkan, terutama di wilayah dengan tingkat vaksinasi rendah.
+                    <div class="image-container">
+                        <img src="covax.jpeg" alt="Kerja Sama" class="responsive-image">
+                    </div>
+                </p>
+                <h2>4. Peningkatan Kesejahteraan Masyarakat 🌱💚
+                </h2>
+                <p>Dengan adanya dukungan internasional, baik bilateral, regional, maupun multilateral, masyarakat
+                    Indonesia merasakan manfaat langsung dalam beberapa aspek, seperti:
+                    <ul class="custom-list">
+                    <li><strong>Peningkatan Harapan Hidup ⏳</strong>
+                        <br> Berbagai program pencegahan dan pengobatan, serta peningkatan sistem layanan kesehatan,
+                        memperpanjang usia harapan hidup masyarakat Indonesia.
+                    </li>
+                    <li><strong>Pengurangan Angka Kematian Ibu dan Anak 👶🤰</strong>
+                        <br>
+                        Melalui program kerjasama internasional yang mendukung peningkatan kualitas perawatan kesehatan
+                        ibu dan anak, Indonesia berhasil menurunkan angka kematian ibu dan bayi.
+                    </li>
+                    <li><strong>Akses Lebih Baik terhadap Layanan Kesehatan 🏥</strong>
+                        <br>
+                        Pembangunan infrastruktur kesehatan, peningkatan kapasitas rumah sakit, serta penyediaan alat
+                        kesehatan yang lebih modern telah meningkatkan akses masyarakat terhadap pelayanan kesehatan
+                        yang berkualitas.
+                    </li>
+                    <li><strong>Perbaikan Kesehatan Mental 🧠💬</strong>
+                        <br>
+                        Kerja sama internasional juga memberikan kontribusi dalam peningkatan kesadaran dan pelayanan
+                        kesehatan mental di Indonesia. Misalnya, program dari WHO dan organisasi internasional lainnya
+                        mendukung penguatan sistem kesehatan mental di Indonesia, yang sangat penting mengingat
+                        tantangan mental akibat pandemi dan masalah sosial lainnya. Dampaknya adalah lebih banyak
+                        masyarakat yang mendapatkan dukungan kesehatan mental yang memadai.
+                    </li>
+                </ul>
+                <div class="image-container">
+                    <img src="sejahtera.png" alt="Kerja Sama" class="responsive-image">
+                </div>
+                </p>
+                <p>Maka, kerja sama internasional Indonesia baik itu bilateral, regional, hingga multilateral memberikan
+                    dampak yang sangat luas bagi masyarakat, dengan peningkatan akses terhadap layanan kesehatan,
+                    penurunan angka kematian, peningkatan kesehatan masyarakat, dan penguatan kapasitas sistem
+                    kesehatan. Dampak ini tidak hanya terjadi pada tingkat individu tetapi juga pada tingkat sistem
+                    kesehatan secara keseluruhan, yang membantu Indonesia bergerak lebih dekat dalam pencapaian Tujuan 3
+                    SDGs.
+                <div class="image-container">
+                    <img src="kesehatanpapua.jpg" alt="Kerja Sama" class="responsive-image">
+                </div>
+                </p>
+            </section>
+        </div>
+
+        <section id="nilaipancasila">
+            <h2>Nilai Pancasila dalam Kerja Sama Internasional</h2>
+            <p>Kerja sama internasional Indonesia dalam mencapai <strong>Tujuan ke-3 SDGs (Kesehatan yang Baik dan
+                    Kesejahteraan untuk Semua)</strong>, baik dalam kerja sama bilateral, regional, maupun
+                multilateral,
+                sangat mencerminkan nilai-nilai yang terkandung dalam Pancasila:
+            </p>
+            <div class="kotak-container">
+                <!-- Sila 1 -->
+                <input type="radio" id="sila1" name="sila" class="kotak" />
+                <label for="sila1" class="kotak-label">
+                    <img src="bintang.jpg" alt="Sila 1">
+
+                    <span>1. Ketuhanan yang Maha Esa (Sila Pertama)</span>
+                </label>
+                <div class="konten" id="konten-sila1">
+                    <p>Ketuhanan yang Maha Esa berarti mengakui adanya Tuhan Yang Maha Esa dan menghargai setiap agama
+                        serta keyakinan. Dalam kerja sama internasional, nilai ini tercermin dalam upaya untuk
+                        menghormati
+                        perbedaan agama dan keyakinan. Misalnya, dalam kerjasama Indonesia dengan negara-negara yang
+                        memiliki latar belakang agama berbeda, seperti dengan negara-negara di ASEAN atau PBB,
+                        Indonesia menunjukkan bahwa kesejahteraan dan kesehatan adalah hak dasar bagi setiap individu,
+                        terlepas dari latar belakang agama atau kepercayaan mereka. Selain itu, kerjasama internasional
+                        juga
+                        mencerminkan upaya untuk melindungi kehidupan dan martabat manusia, yang merupakan perwujudan
+                        dari
+                        nilai Ketuhanan. Sebagai contoh, Indonesia bekerja sama dengan WHO untuk mengurangi angka
+                        kematian akibat penyakit menular di negara-negara berkembang, memastikan bahwa layanan
+                        kesehatan
+                        yang diberikan adalah untuk semua, tanpa memandang agama atau latar belakang.</p>
+                </div>
+
+                <!-- Sila 2 -->
+                <input type="radio" id="sila2" name="sila" class="kotak" />
+                <label for="sila2" class="kotak-label">
+                    <img src="rantai.png" alt="Sila 2">
+                    <span>2. Kemanusiaan yang Adil dan Beradab (Sila Kedua)</span>
+                </label>
+                <div class="konten" id="konten-sila2">
+                    <p> Nilai kemanusiaan yang adil dan beradab dalam Pancasila menekankan pentingnya keadilan dan
+                        martabat
+                        manusia. Kerja sama internasional Indonesia di bidang kesehatan menunjukkan penghargaan terhadap
+                        hak
+                        asasi manusia yang mendasar, yakni kesehatan. Indonesia terlibat aktif dalam upaya global
+                        untuk
+                        menyediakan akses yang setara terhadap layanan kesehatan bagi seluruh lapisan masyarakat dunia,
+                        tanpa terkecuali, termasuk negara-negara yang kurang berkembang. Contohnya, dalam kerja sama
+                        dengan
+                        China untuk pengadaan vaksin COVID-19 atau kerja sama dengan ASEAN dalam memperkuat
+                        sistem kesehatan, Indonesia menekankan bahwa setiap manusia berhak atas perawatan medis yang
+                        memadai, terlepas dari kondisi ekonomi, sosial, atau politik mereka. Dengan memberikan bantuan
+                        dan bekerja sama dalam menangani masalah kesehatan global, Indonesia menggambarkan nilai
+                        kemanusiaan yang adil dengan berfokus pada pengurangan kesenjangan dalam akses kesehatan.</p>
+                </div>
+
+                <!-- Sila 3 -->
+                <input type="radio" id="sila3" name="sila" class="kotak" />
+                <label for="sila3" class="kotak-label">
+                    <img src="beringin.png" alt="Sila 3">
+                    <span>3. Persatuan Indonesia (Sila Ketiga)</span>
+                </label>
+                <div class="konten" id="konten-sila3">
+                    <p>Persatuan Indonesia mengandung makna bahwa meskipun negara Indonesia terdiri dari berbagai suku,
+                        agama, dan budaya, kita tetap bersatu sebagai bangsa. Dalam konteks kerja sama internasional,
+                        ini tercermin dalam upaya Indonesia untuk bekerja sama dengan negara-negara lain, baik yang
+                        seagama maupun berbeda agama, dalam menangani isu kesehatan global. Indonesia menjaga kesatuan
+                        dan
+                        bekerja bersama untuk menghadapi tantangan bersama, baik di tingkat bilateral, regional, maupun
+                        multilateral. Misalnya, dalam kerja sama ASEAN atau dalam forum G20, Indonesia berperan
+                        sebagai mediator antara negara-negara maju dan negara-negara berkembang, memastikan bahwa
+                        kesehatan yang baik menjadi prioritas global bersama. Ini adalah wujud dari upaya persatuan,
+                        yang
+                        meskipun beragam, tetap bersatu untuk mencapai tujuan bersama dalam menciptakan dunia yang lebih
+                        sehat.</p>
+                </div>
+
+                <!-- Sila 4 -->
+                <input type="radio" id="sila4" name="sila" class="kotak" />
+                <label for="sila4" class="kotak-label">
+                    <img src="banteng.png" alt="Sila 4">
+                    <span>4. Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan (Sila
+                        Keempat)
+                        </span>
+                </label>
+                <div class="konten" id="konten-sila4">
+                    <p>Dalam kerja sama internasional di bidang kesehatan, Indonesia sangat mengedepankan prinsip
+                        musyawarah untuk mufakat. Indonesia selalu berperan aktif dalam forum-forum internasional,
+                        seperti PBB, WHO, dan ASEAN, untuk berdiskusi dan membuat keputusan yang akan
+                        mempengaruhi kebijakan kesehatan global. Prinsip kerakyatan yang dipimpin oleh hikmat
+                        kebijaksanaan
+                        ini tercermin dalam cara Indonesia mengajak negara-negara lain untuk bekerja sama melalui
+                        dialog
+                        yang inklusif. Misalnya, Indonesia bekerja sama dengan negara-negara dalam ASEAN untuk
+                        membentuk kebijakan regional mengenai penanggulangan penyakit menular seperti HIV/AIDS dan
+                        tuberkulosis, di mana setiap negara diundang untuk berpartisipasi dalam pembuatan kebijakan
+                        yang
+                        berfokus pada peningkatan kesejahteraan masyarakat. Hal ini merupakan salah satu contoh bentuk musyawarah dan
+                        keputusan
+                        yang diambil dengan hikmat kebijaksanaan, melibatkan berbagai pihak untuk mendapatkan hasil yang
+                        adil bagi semua.</p>
+                </div>
+
+                <!-- Sila 5 -->
+                <input type="radio" id="sila5" name="sila" class="kotak" />
+                <label for="sila5" class="kotak-label">
+                    <img src="padikps.png" alt="Sila 5">
+                    <span>5. Keadilan Sosial bagi Seluruh Rakyat Indonesia (Sila Kelima)</span>
+                </label>
+                <div class="konten" id="konten-sila5">
+                    <p>Nilai keadilan sosial menuntut bahwa setiap orang, tanpa kecuali, harus mendapatkan hak yang sama
+                        dalam berbagai bidang kehidupan, termasuk dalam bidang kesehatan. Dalam kerja sama
+                        internasional, Indonesia memperjuangkan prinsip keadilan sosial melalui kebijakan yang mendukung
+                        akses yang adil terhadap layanan kesehatan, baik di dalam negeri maupun di tingkat global. Indonesia berkomitmen untuk mengurangi ketimpangan dalam akses kesehatan, dengan memberikan
+                        perhatian khusus kepada negara-negara yang lebih membutuhkan, seperti negara-negara berkembang.
+                        Contohnya, dalam kerja sama dengan China, Indonesia memperoleh akses terhadap vaksin COVID-19
+                        yang sangat penting untuk menanggulangi pandemi global, termasuk di negara-negara dengan
+                        sumber daya terbatas. Selain itu, Indonesia juga aktif memberikan bantuan medis kepada
+                        negara-negara
+                        lain yang membutuhkan, baik dalam bentuk tenaga medis, obat-obatan, atau alat
+                        kesehatan. Hal ini mencerminkan prinsip keadilan sosial, di mana Indonesia berusaha memastikan bahwa
+                        setiap
+                        orang, baik di dalam negeri maupun luar negeri, mendapatkan hak yang setara untuk memperoleh
+                        perawatan kesehatan yang memadai.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Refleksi" class="flipbook-container">
+            <input type="radio" id="page1" name="page" checked>
+            <input type="radio" id="page2" name="page">
+            <input type="radio" id="page3" name="page">
+            <input type="radio" id="page4" name="page">
+
+
+            <!-- Halaman flipbook -->
+            <div class="flipbook">
+                <div class="page" id="page1Content">
+                    <h1 align="center">Refleksi Peran Indonesia dalam Mendukung SDGs Tujuan Ke-3 dan Implementasi
+                        Nilai-Nilai
+                        Pancasila</h1>
+                    <p>Saya telah mempelajari bahwa Indonesia memiliki peran penting dalam mendukung tercapainya
+                        Sustainable
+                        Development Goals (SDGs) di kancah internasional. Sebagai negara dengan populasi besar dan
+                        kekayaan sumber daya alam yang melimpah, Indonesia menjadi aktor kunci dalam berbagai inisiatif
+                        global untuk mencapai pembangunan berkelanjutan. Indonesia secara aktif terlibat dalam forum
+                        internasional seperti G20 dan PBB untuk membahas isu-isu terkait lingkungan, ekonomi, dan
+                        sosial,
+                        sekaligus menunjukkan komitmennya dalam mendukung implementasi SDGs di tingkat nasional dan
+                        global.
+                        Salah satu langkah konkret yang diambil Indonesia adalah melalui kebijakan yang berorientasi
+                        pada
+                        keberlanjutan, seperti program pengurangan emisi karbon dan pelestarian keanekaragaman hayati.</p>
+                    <div class="image-container">
+                        <img src="jbjkw.jpg" alt="Refleksi" class="responsive-image">
+                    </div>
+
+                    <p>Secara khusus, saya memahami bahwa Indonesia juga memberikan perhatian besar pada tujuan ke-3
+                        dari
+                        Sustainable Development Goals (SDGs), yaitu "Kesehatan yang Baik dan Kesejahteraan", karena
+                        tujuan ini sangat relevan dengan upaya Indonesia untuk menciptakan masyarakat yang sehat,
+                        sejahtera,
+                        dan berkeadilan. Setelah mengulik tentang hal ini, saya melihat bahwa Indonesia memainkan peran
+                        penting dalam mewujudkan tujuan ini, baik di tingkat nasional maupun internasional, dengan
+                        mencerminkan nilai-nilai yang terkandung dalam Pancasila.</p>
+                    <div class="image-container">
+                        <img src="kesehatanindo.jpg" alt="Refleksi" class="responsive-image">
+                    </div>
+
+                    <p>Bagi saya, peran Indonesia dalam mendukung SDGs di kancah internasional adalah sesuatu yang
+                        membanggakan sekaligus menginspirasi. Belajar tentang upaya Indonesia di tingkat global, baik
+                        melalui kerja sama bilateral dengan Tiongkok dalam pengadaan vaksin, kolaborasi regional dengan
+                        ASEAN, hingga keterlibatan aktif dalam program WHO, membuat saya memahami bahwa pembangunan
+                        kesehatan bukan hanya tanggung jawab satu negara, tetapi tanggung jawab bersama. Saya merasa
+                        bahwa langkah-langkah ini menunjukkan betapa pentingnya solidaritas global untuk mencapai tujuan
+                        yang besar, seperti SDGs ke-3, yaitu memastikan kehidupan sehat dan mendukung kesejahteraan bagi
+                        semua.</p>
+                    <div class="image-container">
+                        <img src="indonesiaa.gif" alt="Refleksi" class="responsive-image">
+                    </div>
+                </div>
+
+                <div class="page" id="page2Content">
+                    <p>Lebih dari itu, saya merenungkan bahwa kerja sama ini tidak hanya memberikan dampak bagi negara,
+                        tetapi juga bagi individu seperti saya 🤔. Ketika saya melihat bagaimana Jaminan Kesehatan
+                        Nasional
+                        (JKN) atau akses terhadap vaksinasi menjadi lebih luas berkat kerja sama internasional, saya
+                        merasa
+                        terhubung secara langsung dengan hasil dari usaha-usaha ini. Namun, saya juga menyadari bahwa
+                        tantangan besar masih ada, terutama dalam memastikan kesetaraan akses layanan kesehatan di
+                        seluruh
+                        pelosok negeri. Hal ini membuat saya bertanya kepada diri sendiri: apa yang bisa saya
+                        lakukan
+                        untuk mendukung tujuan ini? Refleksi ini membuka mata saya bahwa kontribusi kecil, seperti
+                        menyebarkan informasi kesehatan atau mendukung program masyarakat sehat di lingkungan sekitar,
+                        adalah bagian dari tanggung jawab saya.</p>
+                    <div class="image-container">
+                        <img src="jkn.jpg" alt="Refleksi" class="responsive-image">
+                    </div>
+
+                    <p>Belajar tentang peran Indonesia di tingkat internasional membuat saya merasa bahwa kita tidak
+                        sendirian dalam menghadapi masalah global. Tetapi, tidak sekadar itu, saya memahami bahwa
+                        langkah-langkah besar yang dilakukan negara hanya akan berhasil jika didukung oleh kesadaran dan
+                        tindakan kecil dari setiap individu. Saya merasa termotivasi untuk menjadi bagian dari perubahan
+                        itu, tidak hanya sebagai penerima manfaat tetapi juga sebagai penggerak, sekecil apa pun
+                        kontribusi
+                        saya.</p>
+                    <div class="image-container">
+                        <img src="marathon.jpg" alt="Refleksi" class="responsive-image">
+                    </div>
+
+                    <p>Melalui kerja sama internasional, Indonesia juga mencerminkan nilai-nilai Pancasila. Contohnya,
+                        sila
+                        pertama, Ketuhanan yang Maha Esa, yang mengingatkan saya bahwa kesehatan dan kesejahteraan
+                        adalah
+                        hak yang diberikan oleh Tuhan kepada setiap umat manusia. Negara memiliki tanggung jawab
+                        untuk
+                        memastikan setiap warga negara mendapatkan akses terhadap layanan kesehatan yang memadai, tanpa
+                        memandang latar belakang agama atau kepercayaan. Indonesia, dalam hal ini, telah berusaha
+                        memberikan
+                        pelayanan kesehatan yang adil melalui program Jaminan Kesehatan Nasional (JKN) dan juga kerja
+                        sama
+                        internasional dengan negara-negara di dunia, yang bertujuan untuk menjangkau seluruh lapisan
+                        masyarakat.</p>
+                    <div class="image-container">
+                        <img src="michael.jpg" alt="Refleksi" class="responsive-image">
+                    </div>
+                </div>
+                <div class="page" id="page3Content">
+                    <p>Sila kedua, Kemanusiaan yang Adil dan Beradab, terlihat jelas dalam upaya Indonesia untuk
+                        mengurangi
+                        kesenjangan akses terhadap layanan kesehatan, baik antara daerah perkotaan dan pedesaan, maupun
+                        antara kelompok sosial ekonomi. Melalui kebijakan seperti pembangunan puskesmas di
+                        daerah
+                        terpencil dan distribusi obat yang lebih merata, Indonesia berusaha memberikan hak kesehatan
+                        yang
+                        adil bagi seluruh rakyatnya. Selain itu, Indonesia juga berperan aktif dalam organisasi
+                        internasional, seperti WHO, untuk mendukung upaya global dalam meningkatkan kesehatan masyarakat
+                        di
+                        negara-negara berkembang ataupun negara-negara yang sedang kesulitan.</p>
+                    <div class="image-container">
+                        <img src="palestine.jpeg" alt="Refleksi" class="responsive-image">
+                    </div>
+
+                    <p>Sila ketiga, Persatuan Indonesia, menunjukkan pentingnya kerjasama nasional dalam menghadapi
+                        tantangan kesehatan global. Pandemi COVID-19 adalah contoh nyata di mana Indonesia
+                        menunjukkan
+                        semangat persatuan dengan menggalang kekuatan antara pemerintah, masyarakat, dan sektor swasta
+                        untuk
+                        mempercepat vaksinasi dan distribusi bantuan medis. Indonesia juga turut berperan dalam berbagi
+                        informasi dan pengalaman dengan negara lain, agar bersama-sama kita bisa lebih cepat keluar dari
+                        krisis kesehatan global ini.</p>
+                    <div class="image-container">
+                        <img src="nakes.jpeg" alt="Refleksi" class="responsive-image">
+                    </div>
+
+                    <p>Sila keempat, Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam
+                        Permusyawaratan/Perwakilan,
+                        dapat saya lihat dalam kebijakan pemerintah yang mengutamakan partisipasi publik dan konsultasi
+                        dengan berbagai pihak, termasuk organisasi masyarakat sipil dan tenaga medis, dalam merumuskan
+                        kebijakan kesehatan. Indonesia juga mendorong perwakilan masyarakat dalam pengambilan
+                        keputusan
+                        terkait kesehatan, dengan cara mendengarkan aspirasi dan kebutuhan dari berbagai kelompok
+                        masyarakat, khususnya yang rentan terhadap penyakit.</p>
+                    <div class="image-container">
+                        <img src="dpr.jpg" alt="Refleksi" class="responsive-image">
+                    </div>
+                </div>
+                <div class="page" id="page4Content">
+                    <p>Sila kelima, Keadilan Sosial bagi Seluruh Rakyat Indonesia, berperan penting dalam memastikan
+                        bahwa
+                        setiap warga negara, tanpa kecuali, mendapatkan akses yang setara terhadap pelayanan kesehatan.
+                        Dalam hal ini, saya sangat menghargai berbagai kebijakan yang diterapkan untuk memastikan
+                        masyarakat
+                        yang berada di garis kemiskinan tetap bisa menikmati layanan kesehatan yang berkualitas, seperti
+                        pembebasan biaya pengobatan di rumah sakit bagi keluarga miskin.</p>
+                    <div class="image-container">
+                        <img src="hermina.jpeg" alt="Refleksi" class="responsive-image">
+                    </div>
+
+                    <p>Dengan peran aktif Indonesia dalam mencapai SDGs tujuan ke-3 ini, saya semakin yakin bahwa
+                        nilai-nilai Pancasila menjadi landasan yang kuat dalam menciptakan masyarakat yang sehat dan
+                        sejahtera. Saya merasa bangga karena negara kita tidak hanya memperhatikan kesejahteraan
+                        rakyatnya, tetapi juga berkomitmen untuk berkontribusi dalam peningkatan kualitas kesehatan
+                        global. Melalui pendekatan yang berbasis pada gotong royong, keadilan, dan kebijaksanaan, Indonesia
+                        membuktikan bahwa pembangunan kesehatan yang berkelanjutan adalah bagian dari tanggung jawab
+                        moral
+                        kita bersama.</p>
+
+                    <p>Sebagai generasi muda, saya merasa terinspirasi untuk turut berkontribusi dalam upaya mencapai
+                        kesehatan yang lebih baik di masyarakat, baik melalui kegiatan sosial, penyuluhan kesehatan,
+                        maupun dengan mendukung kebijakan-kebijakan yang mendukung kesehatan masyarakat. Dengan terus
+                        mengamalkan nilai-nilai Pancasila, saya percaya kita semua dapat berperan dalam menciptakan
+                        dunia
+                        yang lebih sehat dan berkelanjutan.</p>
+                </div>
+            </div>
+            <!-- Tombol navigasi -->
+            <div class="controls">
+                <label for="page1" class="btn">Page 1</label>
+                <label for="page2" class="btn">Page 2</label>
+                <label for="page3" class="btn">Page 3</label>
+                <label for="page4" class="btn">Page 4</label>
+            </div>
+    </div>
+    </section>
+
+    <div class="column">
+        <section id="Kesimpulan">
+            <h1>Kesimpulan</h1>
+            <p><strong>Kolaborasi strategis internasional Indonesia</strong> telah menjadi pengubah permainan dalam
+                upaya negara untuk mencapai <strong>SDG 3: Kesehatan dan Kesejahteraan yang Baik untuk
+                    Semua</strong>. Melalui kemitraan <strong>bilateral</strong>, Indonesia memperoleh akses
+                ke <strong>teknologi medis canggih</strong> dan pembangunan <strong>infrastruktur
+                    penting</strong>, khususnya yang mendukung <strong>daerah terpencil</strong>. Program
+                <strong>kampanye vaksinasi massal COVID-19 yang cepat</strong> dan <strong>pelatihan medis yang
+                    komprehensif</strong> telah secara signifikan meningkatkan <strong>kualitas layanan
+                    kesehatan</strong> di Indonesia.
+            </p>
+
+            <p>Di tingkat <strong>regional</strong>, kemitraan dengan negara-negara <strong>ASEAN</strong>
+                semakin memperkuat <strong>sistem kesehatan</strong> melalui berbagi <strong>data</strong>,
+                <strong>penelitian bersama</strong>, dan <strong>sumber daya medis yang lebih terpadu</strong>,
+                yang memungkinkan respons yang lebih cepat dan lebih efektif terhadap <strong>penyakit
+                    menular</strong> dan <strong>bencana alam</strong>. Kolaborasi ini juga membantu
+                Indonesia mengatasi tantangan kesehatan akibat <strong>perubahan iklim</strong>, meningkatkan
+                kapasitas untuk melindungi <strong>kesehatan masyarakat</strong> dalam kondisi yang semakin
+                kompleks.
+            </p>
+
+            <p>Di level <strong>multilateral</strong>, kemitraan dengan organisasi global seperti
+                <strong>WHO</strong>, <strong>PBB</strong>, dan <strong>GAVI</strong> memberikan
+                <strong>dukungan finansial</strong> yang sangat diperlukan untuk <strong>inisiatif-inisiatif
+                    kesehatan utama</strong>. Selain itu, kemitraan ini membuka akses kepada <strong>vaksin yang
+                    terjangkau</strong> dan <strong>obat-obatan esensial</strong>. Salah satu contoh nyata
+                kolaborasi internasional adalah program <strong>COVAX</strong>, yang memastikan distribusi
+                vaksin COVID-19 yang adil di seluruh dunia. Dukungan ini juga berperan dalam meningkatkan kualitas
+                kebijakan kesehatan dan pelatihan medis di Indonesia.
+            </p>
+
+            <p><strong>Dengan demikian</strong>, kemitraan internasional yang kuat telah membantu Indonesia dalam
+                meningkatkan akses layanan kesehatan, menurunkan angka kematian ibu dan anak, serta
+                mengatasi masalah kesehatan mental. Semua pencapaian ini semakin mendekatkan Indonesia untuk
+                mewujudkan <strong>SDG 3</strong> dan menciptakan masa depan yang lebih sehat dan sejahtera bagi
+                seluruh rakyat Indonesia. Kolaborasi global ini menunjukkan betapa pentingnya upaya bersama
+                dalam merubah lanskap kesehatan nasional.</p>
+                <div class="image-container">
+                    <img src="kerjasamainter.jpg" alt="Saran" class="responsive-image">
+                </div>
+        </section>
+    </div>
+
+    <div class="column">
+        <section id="Saran">
+            <h1>Solusi Telemedicine 24/7 untuk Akses Kesehatan di Indonesia 🌍💻</h1>
+            <div class="section">
+                <h2>Pengembangan Telemedicine untuk Akses Kesehatan 💡</h2>
+                <p>Indonesia masih menghadapi tantangan besar dalam hal aksesibilitas layanan kesehatan, terutama di
+                    daerah-daerah terpencil yang jauh dari fasilitas kesehatan. Salah satu solusi inovatif yang
+                    dapat diimplementasikan adalah <strong>pengembangan layanan Telemedicine
+                        24/7</strong>, yang dapat diakses dengan mudah melalui perangkat digital seperti ponsel,
+                    tablet, atau komputer. Telemedicine memberikan kemudahan bagi masyarakat untuk mendapatkan
+                    layanan medis kapan saja, tanpa terbatas oleh waktu atau jarak.</p>
+
+                <p>Layanan ini sangat berpotensi untuk mendekatkan akses kesehatan kepada setiap lapisan masyarakat,
+                    termasuk mereka yang berada di daerah pelosok, yang sering kali kesulitan mengakses
+                    perawatan medis secara langsung.</p>
+                    <div class="image-container">
+                        <img src="telemedicine.jpg" alt="Saran" class="responsive-image">
+                    </div>
+            </div>
+
+            <div class="section">
+                <h2>Kunci dari Pengembangan Telemedicine 24/7 📚</h2>
+                <p>Untuk memastikan keberhasilan implementasi telemedicine, ada beberapa aspek yang perlu
+                    dipersiapkan dengan matang, seperti:</p>
+                <ul>
+                    <strong>1. Pengembangan Platform Telemedicine yang Terintegrasi dan Mudah Digunakan
+                            💻📱</strong>
+                    <p>Platform telemedicine harus dirancang dengan fitur yang memudahkan pengguna, baik di
+                        perkotaan maupun di daerah terpencil. Platform ini harus mampu menyediakan layanan seperti:
+                        <ul class="custom-list">
+                        <li><strong>Konsultasi medis via video call 📹</strong>, yang memungkinkan
+                            pasien berkonsultasi langsung dengan dokter.</li>
+                        <li><strong>Konsultasi melalui chat 💬</strong>, untuk memberi akses lebih
+                            cepat bagi pasien.</li>
+                        <li><strong>Pemberian resep digital 💊</strong>, yang membantu pasien
+                            mendapatkan obat-obatan tanpa harus datang ke rumah sakit.</li>
+                    </ul>
+                    </p>
+
+                    <strong>2. Pelatihan Tenaga Medis untuk Layanan Telemedicine 👩‍⚕️👨‍⚕️</strong>
+                    <p>Pelatihan khusus untuk tenaga medis sangat diperlukan agar mereka bisa memberikan layanan
+                        yang optimal meskipun dilakukan secara virtual. Pelatihan ini akan mencakup teknik
+                        berkomunikasi yang efektif dengan pasien dan penggunaan teknologi platform telemedicine.</p>
+
+                    <strong>3. Integrasi dengan Layanan Kesehatan Fisik 🏥🚑</strong>
+                    <p>Jika ada kondisi medis yang memerlukan perawatan langsung, platform telemedicine harus
+                        menyediakan <strong>rujukan ke fasilitas kesehatan terdekat</strong>, seperti
+                        rumah sakit atau klinik.</p>
+
+                    <strong>4. Edukasi dan Sosialisasi kepada Masyarakat 📢💡</strong>
+                    <p>Program edukasi tentang telemedicine sangat penting agar masyarakat dapat memanfaatkan
+                        layanan dengan bijak dan tahu kapan waktu yang tepat untuk mengaksesnya.</p>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Potensi Telemedicine untuk Meningkatkan Akses Kesehatan di Indonesia 🚀💚</h2>
+                <p>Dengan pengembangan dan penerapan yang matang, <strong>Telemedicine 24/7</strong>
+                    memiliki potensi besar untuk meningkatkan aksesibilitas layanan kesehatan bagi seluruh
+                    masyarakat Indonesia. Tidak hanya memberikan kemudahan dalam konsultasi medis, tetapi juga
+                    dapat menjangkau masyarakat di daerah yang sulit dijangkau oleh tenaga medis langsung.</p>
+
+                <p>Melalui kemudahan ini, masyarakat dapat mendapatkan perawatan yang cepat, efisien, dan
+                    berkualitas tinggi, yang sangat penting untuk menurunkan angka kematian akibat penyakit, serta
+                    meningkatkan kesejahteraan secara keseluruhan.</p>
+
+                <p>Dengan adanya platform telemedicine yang canggih, pelatihan medis yang terstandarisasi, serta
+                    kerjasama antara teknologi, medis, dan masyarakat, Indonesia dapat bergerak lebih dekat ke
+                    tujuan untuk menciptakan sistem kesehatan yang inklusif dan berkelanjutan.</p>
+
+                <p><strong>Telemedicine 24/7 adalah langkah besar untuk mewujudkan SDG 3: Kesehatan yang Baik dan
+                        Kesejahteraan untuk Semua!</strong></p>
+                        <div class="image-container">
+                            <img src="contohsaran.jpg" alt="Saran" class="responsive-image">
+                        </div>
+            </div>
+        </section>
+    </div>
+    <div class="column">
+        <section id="Daftar Pustaka">
+            <h1>Daftar Pustaka</h1>
+            <ul class="daftarpustaka">
+                <li>Bappenas. (2024). <em>Tujuan 3: Kesehatan yang Baik dan Kesejahteraan.</em> Diakses
+                    pada 20 November 2024, dari <a href="https://sdgs.bappenas.go.id/17-goals/goal-3/"
+                        target="_blank">https://sdgs.bappenas.go.id/17-goals/goal-3/</a></li>
+                <li>International Climate Change Trust Fund. (2024). <em>Sustainable Development Goals
+                        (SDGs) and Indonesia’s Commitment.</em> Diakses pada 21 November 2024, dari <a
+                        href="https://www.icctf.or.id/sdgs/" target="_blank">https://www.icctf.or.id/sdgs/</a></li>
+                <li>United Nations.</em> (2024). <em>Sustainable Development Goals: Overview.</em> Diakses pada
+                    22 November 2024, dari <a href="https://sdgs.un.org/goals"
+                        target="_blank">https://sdgs.un.org/goals</a></li>
+                <li>Kementerian Kesehatan Republik Indonesia.(2024). <em>Indonesia Jajaki Kerja Sama Uji
+                        Klinis Alat Kesehatan dengan China.</em> Diakses pada 23 November 2024, dari <a
+                        href="https://sehatnegeriku.kemkes.go.id/baca/umum/20190220/2829500/indonesia-jajaki-kerjasama-uji-klinis-alat-kesehatan-china/"
+                        target="_blank">https://sehatnegeriku.kemkes.go.id/baca/umum/20190220/2829500/indonesia-jajaki-kerjasama-uji-klinis-alat-kesehatan-china/</a>
+                </li>
+                <li>Jurnal APSMI. (2024). <em>Kerja Sama Indonesia dengan ASEAN dalam Mengatasi Krisis
+                        Kesehatan Global.</em> Diakses pada 23 November 2024, dari <a
+                        href="http://jurnal-apsmi.org/index.php/CM/article/download/178/136"
+                        target="_blank">http://jurnal-apsmi.org/index.php/CM/article/download/178/136</a></li>
+                <li>Kementerian Kesehatan Republik Indonesia.</em> (2024). <em>Kerja Sama Indonesia dengan RRT
+                        untuk Mendukung Implementasi Transformasi Kesehatan.</em> Diakses pada 24 November 2024,
+                    dari <a
+                        href="https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20230406/5442739/kerja-sama-indonesia-rrt-dukung-implementasi-transformasi-kesehatan/"
+                        target="_blank">https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20230406/5442739/kerja-sama-indonesia-rrt-dukung-implementasi-transformasi-kesehatan/</a>
+                </li>
+                <li>Kementerian Kesehatan Republik Indonesia. (2024). <em>Pelatihan Dokter Kardiovaskular
+                        di Kerja Sama Indonesia-Rizhao Xinyi.</em> Diakses pada 25 November 2024, dari <a
+                        href="https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20240611/4545704/kemenkes-ri-dan-rs-rizhao-xinyi-kerja-sama-pelatihan-dokter-kardiovaskular/"
+                        target="_blank">https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20240611/4545704/kemenkes-ri-dan-rs-rizhao-xinyi-kerja-sama-pelatihan-dokter-kardiovaskular/</a>
+                </li>
+                <li>Badan Kebijakan Pembangunan Kesehatan.(2024). <em>Kolaborasi Lintas Sektor ASEAN
+                        Mendorong Digitalisasi Kesehatan.</em> Diakses pada 24 November 2024, dari <a
+                        href="https://www.badankebijakan.kemkes.go.id/kolaborasi-lintas-sektor-asean-mendorong-digitalisasi-kesehatan/"
+                        target="_blank">https://www.badankebijakan.kemkes.go.id/kolaborasi-lintas-sektor-asean-mendorong-digitalisasi-kesehatan/</a>
+                </li>
+                <li>Badan Kebijakan Pembangunan Kesehatan. (2024). <em>Pembentukan Dana Respons COVID-19
+                        ASEAN Perkuat Kapasitas Kesehatan Kawasan ASEAN.</em> Diakses pada 25 November 2024, dari <a
+                        href="https://www.badankebijakan.kemkes.go.id/pembentukan-dana-respons-covid-19-asean-perkuat-kapasitas-kesehatan-kawasan-asean/"
+                        target="_blank">https://www.badankebijakan.kemkes.go.id/pembentukan-dana-respons-covid-19-asean-perkuat-kapasitas-kesehatan-kawasan-asean/</a>
+                </li>
+                <li>Kementerian Kesehatan Republik Indonesia.(2024). <em>Kerja Sama WHO dan Kemenkes RI
+                        dalam Hibah Kesehatan.</em> Diakses pada 26 November 2024, dari <a
+                        href="https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20220514/5439839/kemenkes-who-indonesia-sepakati-kerja-sama-hibah-bidang-kesehatan/"
+                        target="_blank">https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20220514/5439839/kemenkes-who-indonesia-sepakati-kerja-sama-hibah-bidang-kesehatan/</a>
+                </li>
+                <li>Kementerian Kesehatan Republik Indonesia.(2024). <em>Luncurkan Green Climate Fund
+                        untuk Kesehatan yang Lebih Baik.</em> Diakses pada 26 November 2024, dari <a
+                        href="https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20240430/5345381/kemenkes-undp-dan-who-luncurkan-green-climate-fund/"
+                        target="_blank">https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20240430/5345381/kemenkes-undp-dan-who-luncurkan-green-climate-fund/</a>
+                </li>
+                <li>Kementerian Kesehatan Republik Indonesia. (2024). <em>WHO dan Kemenkes Indonesia
+                        Serukan Eliminasi Lemak Trans.</em> Diakses pada 27 November 2024, dari <a
+                        href="https://sehatnegeriku.kemkes.go.id/baca/umum/20240506/1945448/who-dan-kementerian-kesehatan-menyerukan-eliminasi-lemak-trans-untuk-indonesia-lebih-sehat-dan-produktif/"
+                        target="_blank">https://sehatnegeriku.kemkes.go.id/baca/umum/20240506/1945448/who-dan-kementerian-kesehatan-menyerukan-eliminasi-lemak-trans-untuk-indonesia-lebih-sehat-dan-produktif/</a>
+                </li>
+                <li>Kementerian Kesehatan Republik Indonesia. (2024). <em>Perjanjian Kerja Sama dengan WHO
+                        untuk Tahun 2024-2025.</em> Diakses pada 27 November 2024, dari <a
+                        href="https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20240208/4644928/kemenkes-dan-who-indonesia-kembali-kerja-sama-grant-agreement-biennium-2024-2025/"
+                        target="_blank">https://sehatnegeriku.kemkes.go.id/baca/rilis-media/20240208/4644928/kemenkes-dan-who-indonesia-kembali-kerja-sama-grant-agreement-biennium-2024-2025/</a>
+                </li>
+                <li>Megasains. (2024). <em>PM Memiliki Ukuran yaitu Berukuran Kecil, Membawa Partikel Mikro
+                        dan Dapat Menyebar ke Area Alveoli Paru-paru Manusia.</em> Diakses pada 26 November 2024,
+                    dari <a
+                        href="https://megasains.gawbkt.id/index.php/megasains/article/download/103/33#:~:text=PM%20memiliki%20ukuran%20yaitu%20berukuran,area%20alveoli%20paru%2Dparu%20m"
+                        target="_blank">https://megasains.gawbkt.id/index.php/megasains/article/download/103/33#:~:text=PM%20memiliki%20ukuran%20yaitu%20berukuran,area%20alveoli%20paru%2Dparu%20m</a>
+                </li>
+                <li>World Health Organization. (2024). <em>WHE Monthly Report - May 2024.</em> Diakses pada
+                    26 November 2024, dari <a
+                        href="https://cdn.who.int/media/docs/default-source/searo/indonesia/whe-monthly-report/whe-report---may-2024---id.pdf"
+                        target="_blank">https://cdn.who.int/media/docs/default-source/searo/indonesia/whe-monthly-report/whe-report---may-2024---id.pdf</a>
+                </li>
+                <li>Kementerian Kesehatan Republik Indonesia. (2024). <em>Penyakit Tidak Menular Kini Ancam
+                        Usia Muda.</em> Diakses pada 26 November 2024, dari <a
+                        href="https://kemkes.go.id/id/rilis-kesehatan/penyakit-tidak-menular-kini-ancam-usia-muda"
+                        target="_blank">https://kemkes.go.id/id/rilis-kesehatan/penyakit-tidak-menular-kini-ancam-usia-muda</a>
+                </li>
+                <li>Kementerian Kesehatan Republik Indonesia. (2024). <em>Agar Ibu dan Bayi Selamat.</em>
+                    Diakses pada 26 November 2024, dari <a
+                        href="https://sehatnegeriku.kemkes.go.id/baca/blog/20240125/3944849/agar-ibu-dan-bayi-selamat/"
+                        target="_blank">https://sehatnegeriku.kemkes.go.id/baca/blog/20240125/3944849/agar-ibu-dan-bayi-selamat/</a>
+                </li>
+                <li>Badan Kebijakan Pembangunan Kesehatan. (2024). <em>Studi Terkait Kebijakan Kesehatan di
+                        Indonesia.</em> Diakses pada 26 November 2024, dari <a
+                        href="https://repository.badankebijakan.kemkes.go.id/id/eprint/4303/"
+                        target="_blank">https://repository.badankebijakan.kemkes.go.id/id/eprint/4303/</a></li>
+                <li>Dewan Perwakilan Rakyat. (2019). <em>Info Singkat XI-24-II-P3DI-Desember-2019.</em>
+                    Diakses pada 26 November 2024, dari <a
+                        href="https://berkas.dpr.go.id/pusaka/files/info_singkat/Info%20Singkat-XI-24-II-P3DI-Desember-2019-177.pdf"
+                        target="_blank">https://berkas.dpr.go.id/pusaka/files/info_singkat/Info%20Singkat-XI-24-II-P3DI-Desember-2019-177.pdf</a>
+                </li>
+                <li>Indonesia Human Capital Knowledge Series. (2020). <em>The Human Capital Index 2020
+                        Update: Human Capital in the Time of COVID-19.</em> Diakses pada 26 November 2024, dari <a
+                        href="https://indonesia-human-capital-knowledge-series.com/"
+                        target="_blank">https://indonesia-human-capital-knowledge-series.com/</a></li>
+                <li>Modern Diplomacy. (2024). <em>Demographic Bonus as a Window of Opportunity to
+                        Strengthen Indonesia’s Economic Resilience.</em> Diakses pada 26 November 2024, dari <a
+                        href="https://moderndiplomacy.eu/" target="_blank">https://moderndiplomacy.eu/</a></li>
+                <li>World Health Organization. (2023). <em>Indonesia in the 2023 Universal Health Coverage
+                        Global Monitoring Report.</em> Diakses pada 26 November 2024, dari <a
+                        href="https://www.who.int/indonesia/id/news/detail/16-11-2023-indonesia-in-the-2023-universal-health-coverage-global-monitoring-report"
+                        target="_blank">https://www.who.int/indonesia/id/news/detail/16-11-2023-indonesia-in-the-2023-universal-health-coverage-global-monitoring-report</a>
+                </li>
+                <li>Pemerintah Indonesia. (2024). <em>Menuju Indonesia Emas: Revolusi SDM Kesehatan untuk
+                        Generasi 2045.</em> Diakses pada 26 November 2024, dari <a
+                        href="https://indonesia.go.id/kategori/editorial/8645/menuju-indonesia-emas-revolusi-sdm-kesehatan-untuk-generasi-2045?lang=1"
+                        target="_blank">https://indonesia.go.id/kategori/editorial/8645/menuju-indonesia-emas-revolusi-sdm-kesehatan-untuk-generasi-2045?lang=1</a>
+                </li>
+                <li>Ministry of Health New Zealand. (2024). <em>Managing COVID-19 in New Zealand.</em>
+                    Diakses pada 26 November 2024, dari <a href="https://www.health.govt.nz/"
+                        target="_blank">https://www.health.govt.nz/</a></li>
+                <li>World Health Organization (WHO). (n.d.). <em>SDG Target 3.8: Achieve Universal Health Coverage
+                        (UHC), including financial risk protection</em>. Diakses pada 26 November 2024, dari
+                    <a href="https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/sdg-target-3.8-achieve-universal-health-coverage-%28uhc%29-including-financial-risk-protection"
+                        target="_blank">
+                        https://www.who.int/data/gho/data/themes/topics/indicator-groups/indicator-group-details/GHO/sdg-target-3.8-achieve-universal-health-coverage-%28uhc%29-including-financial-risk-protection
+                    </a>
+                </li>
+                <li>
+                    United Nations Statistics Division. (n.d.). <em>Metadata for the Sustainable Development Goals
+                        indicators</em>. Diakses pada 26 November 2024, dari
+                    <a href="https://unstats.un.org/sdgs/metadata/" target="_blank">
+                        https://unstats.un.org/sdgs/metadata/
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Footer dengan Image -->
+    <div class="footer">
+        <img src="footer.png" alt="Footer Image">
+    </div>
+</body>
+<a href="#top" class="scroll-to-top">↑ Kembali ke atas</a>
+</html>
